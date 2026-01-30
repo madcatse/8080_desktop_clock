@@ -1,0 +1,145 @@
+(footprint "HC-49U"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ce4c9849-6a8b-4cf7-9403-ae7799b81711")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "ECS-240-20-1 32MHZ"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5701d426-e45c-46a9-a747-763f03bc345a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35ae1ff7-1bb9-4f92-91f8-48793436ea28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52965514-4fd3-4eeb-95ff-b33252a9e2be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45975bc0-67dd-4b0d-b2d2-7f7fca1e892e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.547 -2.359)
+		(end 3.547 -2.359)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9ad54e7-d845-4a37-932e-e9965cc0207d")
+	)
+	(fp_line
+		(start -3.547 2.359)
+		(end 3.547 2.359)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da24e634-ffdc-4fe6-a6ba-db8167a7cbde")
+	)
+	(fp_arc
+		(start -3.546999 2.359)
+		(mid -5.706533 0)
+		(end -3.547 -2.359)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08f4caa6-1618-41b7-bb2e-0ef64f95107d")
+	)
+	(fp_arc
+		(start 3.546999 -2.359)
+		(mid 5.706533 0)
+		(end 3.547 2.359)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6237ba06-80ab-477f-91e2-db551834665f")
+	)
+	(pad "1" thru_hole circle
+		(at -2.413 0)
+		(size 1.219 1.219)
+		(drill 0.813)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "88e17160-3486-4bb0-b54e-aeba8cbe8621")
+	)
+	(pad "2" thru_hole circle
+		(at 2.413 0)
+		(size 1.219 1.219)
+		(drill 0.813)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "85e298fc-aee2-4efb-9a0a-c29dcfa1fcee")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-U_Vertical.step"
+		(offset
+			(xyz -2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,247 @@
+(footprint "Crystal_DS15_D1.5mm_L5.0mm_Horizontal_1EP_style1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DS15, Crystal, length 5.0mm, width 1.5mm, THT, https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf")
+	(property "Reference" "REF**"
+		(at 0.8636 -1.524 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd169fdf-332a-4efb-ae86-3496c04e6d33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "32.768"
+		(at -0.254 8.1788 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d7e0bb38-7161-4726-b2a5-c52a0ac81f16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "464594c5-27be-4f83-9f98-5a1ad0594a99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0eeac193-70fd-406e-8a5c-8d4e431c9481")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94abe7d7-acb4-448d-ab7b-da0feea16dd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.41 1.24)
+		(end 2.11 1.24)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f1aec57-47f2-4206-aefb-6bc130bb6890")
+	)
+	(fp_line
+		(start -0.41 2.34)
+		(end -0.41 1.24)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fee36039-e205-47cc-9300-fac3b90491c7")
+	)
+	(fp_line
+		(start 0 0.62)
+		(end 0 0.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85b1b9da-9d08-44c0-b815-0eb726e4b2db")
+	)
+	(fp_line
+		(start 0.6 1.24)
+		(end 0 0.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31694830-553f-4e8a-bd31-c1f1f5edd52f")
+	)
+	(fp_line
+		(start 1.1 1.24)
+		(end 1.7 0.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8c6f48f-870a-41bb-80e7-2a0da1cff4d8")
+	)
+	(fp_line
+		(start 1.7 0.62)
+		(end 1.7 0.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c40e4860-7973-4d12-ab2b-a7b3fa1c508c")
+	)
+	(fp_line
+		(start 2.11 1.24)
+		(end 2.11 2.34)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d1fd168-63e3-4897-8e1c-7e264c23fe58")
+	)
+	(fp_rect
+		(start -0.76 -0.75)
+		(end 2.45 7.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "028a6e69-ebcb-4626-b6dd-aa0bb054b797")
+	)
+	(fp_line
+		(start 0 0.75)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b9d67a6-88a7-484a-b59d-389105255b6c")
+	)
+	(fp_line
+		(start 0.6 1.5)
+		(end 0 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37843663-86a0-4a03-bb27-22927d531ec1")
+	)
+	(fp_line
+		(start 1.1 1.5)
+		(end 1.7 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70e128e8-5540-47b5-aa57-64a957e1d9ef")
+	)
+	(fp_line
+		(start 1.7 0.75)
+		(end 1.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af5bb8a6-1064-40b1-8373-4f6ba3e62227")
+	)
+	(fp_rect
+		(start 0.1 1.5)
+		(end 1.6 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "44af79a8-9a2c-4506-9149-4682f0641791")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.85 4.05 90)
+		(layer "F.Fab")
+		(uuid "358e3d87-4d76-4974-a621-bb376e48265e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88a551b2-f4f3-4b34-98b4-65734eb989dd")
+	)
+	(pad "2" thru_hole circle
+		(at 1.7 0)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a28bd92c-b5cc-42ce-aa06-b42535c662ce")
+	)
+	(pad "3" smd roundrect
+		(at 0.85 4.5)
+		(size 2 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "a6f5be09-0f37-4049-84ed-fa0243b9f3fe")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_DS15_D1.5mm_L5.0mm_Horizontal_1EP_style1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

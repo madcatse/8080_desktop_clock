@@ -1,0 +1,112 @@
+(footprint "CDRH8D43NP-100NC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7ab3ebd0-b288-4207-b20d-ec380d8c557c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "15uH/2.3A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "51d84bd1-601e-44e2-8983-ae299ab75c16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00d5a1c3-13ac-4451-8e5a-abb80f6bf76e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db8274be-193d-457f-aa6c-97c8423227dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29d5936e-4fbc-437d-b952-a7a06698de49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -2.7432 -2.7432)
+		(end 2.7432 2.7432)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "caa835ce-fe42-4c1f-8c38-1759f1db3ae0")
+	)
+	(pad "1" smd rect
+		(at -4.05 0)
+		(size 2 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin -0.0508)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "b298b046-13b6-42fb-8bc5-94101b263e6f")
+	)
+	(pad "2" smd rect
+		(at 4.05 0)
+		(size 2 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin -0.0508)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "fbaebd97-83bd-4403-87a4-73c43fe46b77")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_APV_ANR8040.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

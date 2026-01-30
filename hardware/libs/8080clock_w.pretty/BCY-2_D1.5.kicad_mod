@@ -1,0 +1,114 @@
+(footprint "BCY-2_D1.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7dbc6e96-9a9d-40f8-ac84-eb6d05545980")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "R145-32.768"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71d21d6c-ee76-48af-85a7-ddcc42044dc2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1126970-b439-49ef-bc27-e5376e57e582")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5096e64f-0bed-45e5-add7-dd50f1ca0378")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fed500a-90e1-4ed4-ba41-45871d9aa3d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_arc
+		(start -0.727 0.182)
+		(mid -0.7495 0)
+		(end -0.727 -0.182)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8eb7c84e-d189-46d4-8dc8-0e4b139ddf87")
+	)
+	(fp_arc
+		(start 0.727 -0.182)
+		(mid 0.7495 0)
+		(end 0.727 0.182)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed1bbfb4-19fd-4003-8a98-1141d4d29610")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -0.75)
+		(size 1.1 1.1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "f8c68275-5f8a-4fd7-8063-ff4c687e229f")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0.75)
+		(size 1.1 1.1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "e7446d34-cb10-465d-8cba-0e702ea2a48b")
+	)
+	(embedded_fonts no)
+)

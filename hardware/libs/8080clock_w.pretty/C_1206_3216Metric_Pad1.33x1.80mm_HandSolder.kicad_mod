@@ -1,0 +1,206 @@
+(footprint "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor handsolder")
+	(property "Reference" "REF**"
+		(at 0 -1.85 180)
+		(layer "F.SilkS")
+		(uuid "dee7b150-723e-473e-bcb5-0e6fe6d0f38a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2,2uF/50V"
+		(at 0 1.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "20a2c505-16bd-4a9c-aca3-c886601d9834")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.chipdip.ru/product/2.2mkf-x7r-50v-10-1206-grm31cr71h225ka88l-murata-9000070695"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6581b01-ee99-4269-92cc-56b2416c2d32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82ded04f-8239-43df-956d-1bba36045d9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f44cee64-808a-4873-b575-61becb0b8191")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.711252 -0.91)
+		(end 0.711252 -0.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d454ced-0351-4cf0-8bc2-381ca18643df")
+	)
+	(fp_line
+		(start -0.711252 0.91)
+		(end 0.711252 0.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b88905d-4169-47b4-9e16-619980ef6f98")
+	)
+	(fp_line
+		(start -2.48 -1.15)
+		(end 2.48 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b2fe493-1fa7-4d68-a2c6-6422f2b12c72")
+	)
+	(fp_line
+		(start -2.48 1.15)
+		(end -2.48 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a289c664-a8dd-490e-9adc-3f39cc8799fc")
+	)
+	(fp_line
+		(start 2.48 -1.15)
+		(end 2.48 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2534e0d8-5351-489d-9a78-bbeec1d14722")
+	)
+	(fp_line
+		(start 2.48 1.15)
+		(end -2.48 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af8de113-53e6-47e4-84a0-d85364d27dfb")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98399aa7-0878-4813-a8ff-69638e7b0f0d")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a91dfd94-7562-4db0-b538-05538bfdc1fa")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5037e4e-31e2-4b0b-8425-0a9785f3f90b")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "329b90eb-47d7-492d-8903-dc99a85ac85c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "59f42289-7f51-4e05-b3ab-3635bc218de1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.5625 0)
+		(size 1.325 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.188679)
+		(uuid "13fbdae3-b562-4c8f-8390-ac1156366d53")
+	)
+	(pad "2" smd roundrect
+		(at 1.5625 0)
+		(size 1.325 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.188679)
+		(uuid "5e039863-9730-4fc7-95f7-1a5d75b9c9a8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

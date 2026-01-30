@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "acb78ea8-ed4c-41a7-9153-6783241a9453")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 160.02 33.02)
+		(size 113.03 97.79)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5d9e9fb-adb7-4abd-94e7-4285bbf7dc74")
+		(property "Sheetname" "CPU"
+			(at 160.02 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 160.02 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8080clock"
+				(path "/acb78ea8-ed4c-41a7-9153-6783241a9453"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 33.02)
+		(size 113.03 97.79)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f94da994-97d5-4817-89a5-9f11c4c7d7d9")
+		(property "Sheetname" "Power"
+			(at 26.67 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 26.67 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8080clock"
+				(path "/acb78ea8-ed4c-41a7-9153-6783241a9453"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

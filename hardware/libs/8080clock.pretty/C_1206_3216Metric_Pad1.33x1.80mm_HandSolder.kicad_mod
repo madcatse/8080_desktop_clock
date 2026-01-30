@@ -1,0 +1,207 @@
+(footprint "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor handsolder")
+	(property "Reference" "REF**"
+		(at 4.2287 0.118533 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "524222e6-191d-4f52-b029-2ee7389879f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2,2uF"
+		(at -4.3057 0.118533 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "245c2982-6c39-473b-a763-3c43e5f9c937")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.chipdip.ru/product/2.2mkf-x7r-50v-10-1206-grm31cr71h225ka88l-murata-9000070695"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a749904-9b04-4a0b-8445-72c1baa1b732")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "934c8cd2-b572-46de-a1fe-6899a04e48d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b852153-2a23-4831-a060-d84841f642ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.711252 -0.91)
+		(end 0.711252 -0.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7ed9996-8387-4b98-94d8-d166d14dca12")
+	)
+	(fp_line
+		(start -0.711252 0.91)
+		(end 0.711252 0.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04160d2c-f1c8-4168-98d6-e84dd56389bc")
+	)
+	(fp_line
+		(start -2.48 -1.15)
+		(end 2.48 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9faaaaaf-851d-4b35-b232-d2528e8c6298")
+	)
+	(fp_line
+		(start -2.48 1.15)
+		(end -2.48 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20c91f7f-624e-4fb6-a760-aa8045b4cd8b")
+	)
+	(fp_line
+		(start 2.48 -1.15)
+		(end 2.48 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2985706f-997e-4ba0-9d5e-3799b4e211df")
+	)
+	(fp_line
+		(start 2.48 1.15)
+		(end -2.48 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b2eadee-ff4f-4da3-ab5f-6c496c72e407")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef0b5855-5d61-4834-acdd-153a1df1f751")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb97d758-0172-4fbb-b5a3-c2b12d48c3f2")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6ef27fe-d598-4ede-bcb8-f43d5144d28a")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31b6627e-5fda-4dee-81e1-8dc5e3ffe1eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "5fd76bc2-906e-4361-9bd4-a94e3bfe0a68")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.5625 0)
+		(size 1.325 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.188679)
+		(uuid "3bce231b-a102-4078-b42a-c60ee1bba00a")
+	)
+	(pad "2" smd roundrect
+		(at 1.5625 0)
+		(size 1.325 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.188679)
+		(uuid "56d9e8b4-88f1-4c6e-9ebe-7031b63c0f81")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

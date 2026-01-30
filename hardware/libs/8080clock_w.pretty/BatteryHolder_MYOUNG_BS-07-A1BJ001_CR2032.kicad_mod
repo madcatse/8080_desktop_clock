@@ -1,0 +1,225 @@
+(footprint "BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CR2032 battery holder https://www.lcsc.com/datasheet/lcsc_datasheet_2203021630_MYOUNG-BS-07-A1BJ001_C2979167.pdf")
+	(tags "CR2032 BR2032 BatteryHolder Battery")
+	(property "Reference" "REF**"
+		(at -1.5 -4.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3e21b87d-f28b-46f2-a7f9-80409137a5db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2032 battery"
+		(at 12.4 13 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "87a24fe1-2fc6-491a-8083-e0add9d20544")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 12.4 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28e9c9a4-f958-44f8-95f8-1a3010f65e9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single-cell battery"
+		(at 12.4 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a717a52-9800-4196-ae9d-cbab1b96fd63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eeebe2ba-f593-4f34-9fff-4578c9b66462")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.4 0)
+		(end 2.4 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a7daa172-c56a-4fce-8e31-10abb7d32a51")
+	)
+	(fp_line
+		(start 1.9 -0.5)
+		(end 1.9 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d66fbb26-0393-49cd-949e-af5a35f5ffe9")
+	)
+	(fp_arc
+		(start 0.900001 -3.1)
+		(mid 24.310499 0)
+		(end 0.900001 3.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9ed87efa-d7f6-42c5-9d9f-46e5b371f0f0")
+	)
+	(fp_line
+		(start -2.85 -3.15)
+		(end 0.65 -3.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8274aac-8ca2-4d97-89dd-31e333a83b70")
+	)
+	(fp_line
+		(start -2.85 3.15)
+		(end -2.85 -3.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "98d5e7b2-f7f0-49a5-bec4-2c319809027f")
+	)
+	(fp_line
+		(start 0.65 3.15)
+		(end -2.85 3.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a38ca68f-bf21-4dd6-942d-25998a7220bf")
+	)
+	(fp_arc
+		(start 0.65 -3.15)
+		(mid 24.564907 0)
+		(end 0.65 3.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc57e42b-bd70-4ef0-9c2b-a749ef975252")
+	)
+	(fp_line
+		(start -2.6 -2.875)
+		(end -2.6 2.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "63813f41-84d5-4174-bdba-45ebb6c0c3fc")
+	)
+	(fp_line
+		(start -2.6 -2.875)
+		(end 1.15 -2.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "34154be1-755b-4bd1-9738-5d993d072ec9")
+	)
+	(fp_line
+		(start -2.6 2.875)
+		(end 1.15 2.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "562af214-01a4-45bc-b418-47b2b8cc651a")
+	)
+	(fp_circle
+		(center 12.4 0)
+		(end 24 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0fafe784-0990-48f6-a447-eb43c81c8f55")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.4 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8d652ce-ad71-40c8-92fd-b984ab4e922f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 180)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b77c727c-e55e-4e90-88a0-6a7eccf47dda")
+	)
+	(pad "2" thru_hole circle
+		(at 20.8 0 180)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eccb64ab-70ab-4f93-ad58-9653f4074dfd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

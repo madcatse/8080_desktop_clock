@@ -1,0 +1,177 @@
+(footprint "Buzzer_12x9.5RM7.6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Generic Buzzer, D12mm height 9.5mm with RM7.6mm")
+	(tags "buzzer")
+	(property "Reference" "REF**"
+		(at -3.4744 0.1016 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d1ec834e-bdfb-4253-a3fc-7615dd5823f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AI-1223-TWT-5V-R"
+		(at 3.8 7.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d27afbc9-2678-41ce-81a7-a455fc33bd8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e26d44ac-55e5-4957-9212-bc083a7650bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Speaker"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3abb5783-4064-4c99-80d6-162a2bb80509")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "615a1003-9c5c-436b-8582-0eb11eb932d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 3.8 0)
+		(end 9.9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1384df35-1e0b-47d7-b5b6-24a9ad867f8e")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 10.05 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "764b15ac-f4fe-41a2-b24f-d4cfbe6d2a78")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 4.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cc95707f-c3fe-4b6d-b0a0-ba5b88501444")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 9.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ccebffe6-bd95-42bc-b599-6913aca4b785")
+	)
+	(fp_text user "+"
+		(at -0.01 -2.54 180)
+		(layer "F.SilkS")
+		(uuid "2d4ef1e5-cd00-4c81-b38c-4a4839cd8ec7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.8 -4 180)
+		(layer "F.Fab")
+		(uuid "301b4ea1-336c-4989-b968-8653ac984125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -0.01 -2.54 180)
+		(layer "F.Fab")
+		(uuid "8a80f9e1-2787-4c52-99df-318fcc9141d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5435ccbf-059f-4bd3-a9b3-5b35e2db9570")
+	)
+	(pad "2" thru_hole circle
+		(at 7.6 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b865df3b-6afd-41a7-8fab-14199bb3f87b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_12x9.5RM7.6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

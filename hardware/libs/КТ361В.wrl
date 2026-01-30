@@ -1,0 +1,906 @@
+#VRML V2.0 utf8
+#SpaceClaim
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 1.000 0.502 0.251
+				}
+			}
+			geometry DEF shape0 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						7.1999998763203621 4.999999888241291 -2.0000000949949026,
+						7.1999998763203621 4.999999888241291 -3.0000000260770321,
+						0 4.999999888241291 -3.0000000260770321,
+						0 4.999999888241291 -2.0000000949949026,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 1 0,
+						0 1 0,
+						0 1 0,
+						0 1 0,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 1.000 0.502 0.251
+				}
+			}
+			geometry DEF shape1 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						7.1999998763203621 4.0000001899898052 -1.0000000474974513,
+						7.1999998763203621 4.999999888241291 -2.0000000949949026,
+						0 4.999999888241291 -2.0000000949949026,
+						0 4.0000001899898052 -1.0000000474974513,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 0.70710678118654746 0.70710678118654746,
+						0 0.70710678118654746 0.70710678118654746,
+						0 0.70710678118654746 0.70710678118654746,
+						0 0.70710678118654746 0.70710678118654746,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 1.000 0.502 0.251
+				}
+			}
+			geometry DEF shape2 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						7.1999998763203621 1.0000000474974513 0,
+						7.1999998763203621 4.0000001899898052 -1.0000000474974513,
+						0 4.0000001899898052 -1.0000000474974513,
+						0 1.0000000474974513 0,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 0.31622775707614137 0.94868330103074594,
+						0 0.31622775707614137 0.94868330103074594,
+						0 0.31622775707614137 0.94868330103074594,
+						0 0.31622775707614137 0.94868330103074594,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 1.000 0.502 0.251
+				}
+			}
+			geometry DEF shape3 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						0 0 0,
+						0 1.0000000474974513 0,
+						0 4.0000001899898052 -1.0000000474974513,
+						0 4.999999888241291 -2.0000000949949026,
+						0 4.999999888241291 -3.0000000260770321,
+						0 0 -3.0000000260770321,
+					]
+				}
+				coordIndex [
+					0, 1, 5, -1,
+					5, 1, 2, -1,
+					5, 2, 4, -1,
+					4, 2, 3, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						-1 0 0,
+						-1 0 0,
+						-1 0 0,
+						-1 0 0,
+						-1 0 0,
+						-1 0 0,
+					]
+				}
+				normalIndex [
+					0, 1, 5, -1,
+					5, 1, 2, -1,
+					5, 2, 4, -1,
+					4, 2, 3, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 1.000 0.502 0.251
+				}
+			}
+			geometry DEF shape4 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						7.1999998763203621 4.0000001899898052 -1.0000000474974513,
+						7.1999998763203621 1.0000000474974513 0,
+						7.1999998763203621 0 0,
+						7.1999998763203621 0 -3.0000000260770321,
+						7.1999998763203621 4.999999888241291 -3.0000000260770321,
+						7.1999998763203621 4.999999888241291 -2.0000000949949026,
+					]
+				}
+				coordIndex [
+					1, 3, 0, -1,
+					0, 3, 4, -1,
+					0, 4, 5, -1,
+					1, 2, 3, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						1 0 0,
+						1 0 0,
+						1 0 0,
+						1 0 0,
+						1 0 0,
+						1 0 0,
+					]
+				}
+				normalIndex [
+					1, 3, 0, -1,
+					0, 3, 4, -1,
+					0, 4, 5, -1,
+					1, 2, 3, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 1.000 0.502 0.251
+				}
+			}
+			geometry DEF shape5 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						7.1999998763203621 0 0,
+						7.1999998763203621 1.0000000474974513 0,
+						0 1.0000000474974513 0,
+						0 0 0,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 0 1,
+						0 0 1,
+						0 0 1,
+						0 0 1,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 1.000 0.502 0.251
+				}
+			}
+			geometry DEF shape6 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						7.1999998763203621 4.999999888241291 -3.0000000260770321,
+						7.1999998763203621 0 -3.0000000260770321,
+						0 0 -3.0000000260770321,
+						0 4.999999888241291 -3.0000000260770321,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 -8.6736173798840355E-17 -1,
+						0 -8.6736173798840355E-17 -1,
+						0 -8.6736173798840355E-17 -1,
+						0 -8.6736173798840355E-17 -1,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 1.000 0.502 0.251
+				}
+			}
+			geometry DEF shape7 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						7.1999998763203621 0 -3.0000000260770321,
+						7.1999998763203621 0 0,
+						0 0 0,
+						0 0 -3.0000000260770321,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 -1 0,
+						0 -1 0,
+						0 -1 0,
+						0 -1 0,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape8 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						1.5750000020489097 0 -1.39999995008111,
+						1.5750000020489097 0 -1.5999999595806003,
+						0.60000002849847078 0 -1.5999999595806003,
+						0.60000002849847078 0 -1.39999995008111,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 1 0,
+						0 1 0,
+						0 1 0,
+						0 1 0,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape9 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						1.5750000020489097 -3.0000000260770321 -1.39999995008111,
+						1.5750000020489097 -3.0000000260770321 -1.5999999595806003,
+						1.5750000020489097 0 -1.5999999595806003,
+						1.5750000020489097 0 -1.39999995008111,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						1 0 0,
+						1 0 0,
+						1 0 0,
+						1 0 0,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape10 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						0.60000002849847078 0 -1.5999999595806003,
+						1.5750000020489097 0 -1.5999999595806003,
+						1.5750000020489097 -3.0000000260770321 -1.5999999595806003,
+						0.60000002849847078 -3.0000000260770321 -1.5999999595806003,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 0 -1,
+						0 0 -1,
+						0 0 -1,
+						0 0 -1,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape11 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						0.60000002849847078 0 -1.39999995008111,
+						0.60000002849847078 0 -1.5999999595806003,
+						0.60000002849847078 -3.0000000260770321 -1.5999999595806003,
+						0.60000002849847078 -3.0000000260770321 -1.39999995008111,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						-1 0 0,
+						-1 0 0,
+						-1 0 0,
+						-1 0 0,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape12 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						0.60000002849847078 -3.0000000260770321 -1.39999995008111,
+						1.5750000020489097 -3.0000000260770321 -1.39999995008111,
+						1.5750000020489097 0 -1.39999995008111,
+						0.60000002849847078 0 -1.39999995008111,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 0 1,
+						0 0 1,
+						0 0 1,
+						0 0 1,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape13 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						1.5750000020489097 -3.0000000260770321 -1.39999995008111,
+						0.60000002849847078 -3.0000000260770321 -1.39999995008111,
+						0.60000002849847078 -3.0000000260770321 -1.5999999595806003,
+						1.5750000020489097 -3.0000000260770321 -1.5999999595806003,
+					]
+				}
+				coordIndex [
+					1, 2, 0, -1,
+					0, 2, 3, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 -1 0,
+						0 -1 0,
+						0 -1 0,
+						0 -1 0,
+					]
+				}
+				normalIndex [
+					1, 2, 0, -1,
+					0, 2, 3, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape14 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						5.6250002235174179 0 -1.39999995008111,
+						6.5750000067055225 0 -1.39999995008111,
+						6.5750000067055225 0 -1.5999999595806003,
+						5.6250002235174179 0 -1.5999999595806003,
+					]
+				}
+				coordIndex [
+					1, 2, 0, -1,
+					0, 2, 3, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 1 0,
+						0 1 0,
+						0 1 0,
+						0 1 0,
+					]
+				}
+				normalIndex [
+					1, 2, 0, -1,
+					0, 2, 3, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape15 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						5.6250002235174179 -3.0000000260770321 -1.39999995008111,
+						6.5750000067055225 -3.0000000260770321 -1.39999995008111,
+						6.5750000067055225 0 -1.39999995008111,
+						5.6250002235174179 0 -1.39999995008111,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 0 1,
+						0 0 1,
+						0 0 1,
+						0 0 1,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape16 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						6.5750000067055225 -3.0000000260770321 -1.39999995008111,
+						6.5750000067055225 -3.0000000260770321 -1.5999999595806003,
+						6.5750000067055225 0 -1.5999999595806003,
+						6.5750000067055225 0 -1.39999995008111,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						1 0 0,
+						1 0 0,
+						1 0 0,
+						1 0 0,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape17 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						6.5750000067055225 -3.0000000260770321 -1.5999999595806003,
+						5.6250002235174179 -3.0000000260770321 -1.5999999595806003,
+						5.6250002235174179 0 -1.5999999595806003,
+						6.5750000067055225 0 -1.5999999595806003,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 0 -1,
+						0 0 -1,
+						0 0 -1,
+						0 0 -1,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape18 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						5.6250002235174179 -3.0000000260770321 -1.5999999595806003,
+						5.6250002235174179 -3.0000000260770321 -1.39999995008111,
+						5.6250002235174179 0 -1.39999995008111,
+						5.6250002235174179 0 -1.5999999595806003,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						-1 0 0,
+						-1 0 0,
+						-1 0 0,
+						-1 0 0,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape19 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						6.5750000067055225 -3.0000000260770321 -1.39999995008111,
+						5.6250002235174179 -3.0000000260770321 -1.39999995008111,
+						5.6250002235174179 -3.0000000260770321 -1.5999999595806003,
+						6.5750000067055225 -3.0000000260770321 -1.5999999595806003,
+					]
+				}
+				coordIndex [
+					1, 2, 0, -1,
+					0, 2, 3, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 -1 0,
+						0 -1 0,
+						0 -1 0,
+						0 -1 0,
+					]
+				}
+				normalIndex [
+					1, 2, 0, -1,
+					0, 2, 3, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape20 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						3.1250000465661287 -3.0000000260770321 -1.5999999595806003,
+						4.075000062584877 -3.0000000260770321 -1.5999999595806003,
+						4.075000062584877 -3.0000000260770321 -1.39999995008111,
+						3.1250000465661287 -3.0000000260770321 -1.39999995008111,
+					]
+				}
+				coordIndex [
+					1, 2, 0, -1,
+					0, 2, 3, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 -1 0,
+						0 -1 0,
+						0 -1 0,
+						0 -1 0,
+					]
+				}
+				normalIndex [
+					1, 2, 0, -1,
+					0, 2, 3, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape21 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						4.075000062584877 -3.0000000260770321 -1.39999995008111,
+						4.075000062584877 -3.0000000260770321 -1.5999999595806003,
+						4.075000062584877 0 -1.5999999595806003,
+						4.075000062584877 0 -1.39999995008111,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						1 0 0,
+						1 0 0,
+						1 0 0,
+						1 0 0,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape22 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						3.1250000465661287 -3.0000000260770321 -1.39999995008111,
+						4.075000062584877 -3.0000000260770321 -1.39999995008111,
+						4.075000062584877 0 -1.39999995008111,
+						3.1250000465661287 0 -1.39999995008111,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 0 1,
+						0 0 1,
+						0 0 1,
+						0 0 1,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape23 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						3.1250000465661287 -3.0000000260770321 -1.5999999595806003,
+						3.1250000465661287 -3.0000000260770321 -1.39999995008111,
+						3.1250000465661287 0 -1.39999995008111,
+						3.1250000465661287 0 -1.5999999595806003,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						-1 0 0,
+						-1 0 0,
+						-1 0 0,
+						-1 0 0,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape24 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						4.075000062584877 -3.0000000260770321 -1.5999999595806003,
+						3.1250000465661287 -3.0000000260770321 -1.5999999595806003,
+						3.1250000465661287 0 -1.5999999595806003,
+						4.075000062584877 0 -1.5999999595806003,
+					]
+				}
+				coordIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						-4.5650618346121863E-16 0 -1,
+						-4.5650618346121863E-16 0 -1,
+						-4.5650618346121863E-16 0 -1,
+						-4.5650618346121863E-16 0 -1,
+					]
+				}
+				normalIndex [
+					0, 1, 3, -1,
+					3, 1, 2, -1,
+				]
+			}
+		}
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.502 0.502 0.502
+				}
+			}
+			geometry DEF shape25 IndexedFaceSet {
+				coord Coordinate {
+					point [
+						4.075000062584877 0 -1.5999999595806003,
+						3.1250000465661287 0 -1.5999999595806003,
+						3.1250000465661287 0 -1.39999995008111,
+						4.075000062584877 0 -1.39999995008111,
+					]
+				}
+				coordIndex [
+					1, 2, 0, -1,
+					0, 2, 3, -1,
+				]
+				normalPerVertex TRUE
+				normal Normal {
+					vector [
+						0 1 0,
+						0 1 0,
+						0 1 0,
+						0 1 0,
+					]
+				}
+				normalIndex [
+					1, 2, 0, -1,
+					0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}

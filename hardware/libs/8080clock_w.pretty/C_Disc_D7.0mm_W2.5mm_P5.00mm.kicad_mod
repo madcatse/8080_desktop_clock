@@ -1,0 +1,170 @@
+(footprint "C_Disc_D7.0mm_W2.5mm_P5.00mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=7*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
+	(tags "C Disc series Radial pin pitch 5.00mm diameter 7mm width 2.5mm Capacitor")
+	(property "Reference" "REF**"
+		(at 2.5 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "c49387a5-10fd-420b-8808-e41ba1c46ef2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0.01uF"
+		(at 2.5 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "39f4cfb1-c3e5-427e-a532-1c9b19addaa6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9fd6540-4e7b-4579-8be3-8365e7a94239")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7afe88de-9ce5-4559-8229-9930ebb927c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d381e1af-7fe1-45cb-a611-4dad22f787c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.12 -1.37)
+		(end 6.12 -1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73dde82c-1e8c-4ae7-a2ac-f82a3a835dcc")
+	)
+	(fp_line
+		(start -1.12 1.37)
+		(end -1.12 -1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34311161-d76f-4222-97f0-00e0851f2ca9")
+	)
+	(fp_line
+		(start 6.12 -1.37)
+		(end 6.12 1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cbbe068-f7ac-4e99-953c-f73ddef2d5c5")
+	)
+	(fp_line
+		(start 6.12 1.37)
+		(end -1.12 1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c67e38f-e5a8-439a-b953-607b1c2bfbf2")
+	)
+	(fp_rect
+		(start -1.25 -1.5)
+		(end 6.25 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4ce7d82a-2abd-4a24-8feb-b10b785e1a66")
+	)
+	(fp_rect
+		(start -1 -1.25)
+		(end 6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9b72db1d-c37e-4530-a7ab-1ff2f2573f3b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 180)
+		(layer "F.Fab")
+		(uuid "ae8db59c-1b0d-4058-9914-8975d79a7dea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a07d145-0e7a-4f34-bd54-5ec92acd685c")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "773a0531-abad-4e85-b7aa-da4e48490859")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D7.0mm_W2.5mm_P5.00mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

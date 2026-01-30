@@ -1,0 +1,216 @@
+(footprint "КТ361В"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.9276 0.1016 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b775008-1b6f-48f9-9e98-d3d0adceae67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "КТ361В"
+		(at 0.0508 -2.4892 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c9816114-6fd3-4b04-8c5b-ca4d9f2e3c89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "592a96e9-2992-4518-9d10-794e8c940f41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PNP Transistor, KT-13"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cf91f35-4ff1-42ee-877e-29f93c913be4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a11ceed-f6e0-42c8-818b-3240e3270791")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.6 -1.5)
+		(end -3.6 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "13ec8cb3-d4aa-4ca6-a907-9779b583b336")
+	)
+	(fp_line
+		(start -3.6 -1)
+		(end 3.6 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ab8cb577-b06b-4a28-bf8e-35d2c69fe02d")
+	)
+	(fp_line
+		(start -3.6 1.5)
+		(end 3.6 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19b69d1b-5317-40fe-951d-71da4d3bd26d")
+	)
+	(fp_line
+		(start 3.6 -1.5)
+		(end -3.6 -1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a7fd22ae-4608-4167-94fc-540f4259c192")
+	)
+	(fp_line
+		(start 3.6 1.5)
+		(end 3.6 -1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e184cf3-0812-47cc-bf96-a0c23724d7cf")
+	)
+	(fp_rect
+		(start -3.7 -1.6)
+		(end 3.7 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "268e9289-3f33-4a30-89b4-aa0f0c8811d8")
+	)
+	(fp_text user "E"
+		(at -3.0988 3.048 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "13f94fd8-5ab8-42ee-8166-013cbf172219")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B"
+		(at 1.9304 3.1496 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4b6629fd-a999-4ae2-8274-97aec0a29f14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "C"
+		(at -0.6096 3.0988 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d46475ac-076c-43eb-a54d-1072ee179aae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8c364c15-520f-4aa2-a67c-e8a074b86023")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a0890a32-3a02-4537-aba0-d43f6a15f01a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92bd6121-3fe5-4eba-b69a-e3312e27d8fc")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66ecfb10-5f35-4198-aaa2-5a849f781890")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libs/КТ361В.wrl"
+		(offset
+			(xyz 3.5 1.5 0.5)
+		)
+		(scale
+			(xyz 0.39 0.39 0.39)
+		)
+		(rotate
+			(xyz 90 -180 0)
+		)
+	)
+)
