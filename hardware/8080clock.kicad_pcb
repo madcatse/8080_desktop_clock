@@ -39048,7 +39048,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Based on i8080 clock\n by Tronix286\ngithub.com/Tronix286/i8080_clock\n\nDouble PCB version \nby MadCat, 2025-2026\ngithub.com/madcatse/8080_desktop_clock\nt.me/madcatse\nVersion 0.1"
+	(gr_text "Based on i8080 clock\nby Tronix286\ngithub.com/Tronix286/i8080_clock\n\nDouble PCB version \nby MadCat, 2025-2026\ngithub.com/madcatse/8080_desktop_clock\nt.me/madcatse\nVersion 0.1"
 		(at 203.2508 75.7428 180)
 		(layer "F.SilkS")
 		(uuid "1d83e99e-83e6-4d21-b062-549c48ca2361")
