@@ -1,8 +1,13 @@
 # i8080 homebrew digital clock/weather station (fork)
 
+![Передняя плата](pics/clock_assembled.jpg)
+![Задняя плата](pics/clock_assembled_2.jpg)
+![Плата проекта в сборе](pics/8080clock.jpg)
+
 ## Русский
 
-Этот репозиторий — форк проекта **"i8080 homebrew digital clock/weather station"** автора **Tronix286**: <https://github.com/Tronix286/i8080_clock>.
+Этот репозиторий — форк проекта **"i8080 homebrew digital clock/weather station"** автора **Tronix286**: 
+<https://github.com/Tronix286/i8080_clock>.
 
 Моя цель — сделать часы более презентабельными и свести к минимуму использование SMD‑компонентов (с таким процессором использовать их «не комильфо»). Я очень благодарен автору за схему и само устройство — без этой базы не получилось бы так быстро продвинуться.
 
@@ -17,20 +22,20 @@
 **Проект в KiCad**
 - Полный проект схемы и платы находится в каталоге `hardware/`.
 
-**Фото**
-
-![Плата в сборе](pics/photo_2023-10-27_10-43-03.jpg)
-![Подключение внешних устройств](pics/photo_2023-10-27_10-47-33.jpg)
-
 ### ПО
 
 Сборка прошивки описана в каталоге `software/` (используется z88dk и собственная цель `clock80`).
+
+### 3D
+
+Трехмерная модель собранных часов, а также модели треугольные ножки для 3d-печати.
 
 ---
 
 ## English
 
-This repository is a fork of **"i8080 homebrew digital clock/weather station"** by **Tronix286**: <https://github.com/Tronix286/i8080_clock>.
+This repository is a fork of **"i8080 homebrew digital clock/weather station"** by **Tronix286**: 
+<https://github.com/Tronix286/i8080_clock>.
 
 My goal is to make the clock look more presentable and to minimize the number of SMD parts (with a CPU like this, using SMD feels out of place). I am very grateful to the author for the schematic and the original device — it provided the essential foundation for this work.
 
@@ -45,11 +50,10 @@ Key difference vs the original project: this fork focuses on the physical appear
 **KiCad project**
 - Full schematic and PCB project live under `hardware/`.
 
-**Photos**
-
-![Assembled board](pics/photo_2023-10-27_10-43-03.jpg)
-![External devices](pics/photo_2023-10-27_10-47-33.jpg)
-
 ### Software
 
 Firmware build instructions and sources are in `software/` (z88dk with a custom `clock80` target).
+
+### 3D
+
+3D model of assembled clock, and models of triangle stands for 3d printing.
