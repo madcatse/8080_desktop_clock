@@ -1,35 +1,55 @@
-# i8080 homebrew digital clock/weather station
+# i8080 homebrew digital clock/weather station (fork)
 
-Hardware and software platform for experements with i8080 CPU. At current stage it has 3.5" TFT screen, I2C and 1-wire sensors and firmware for digital clock, thermometer, barometer and humidity.
-![platform](pics/photo_2023-10-27_10-43-03.jpg)
+## Русский
 
-## Hardware
-PCB itself include:
-- Onboard power supply for proper i8080 voltages (minus 5V, plus 5V and plus 12V) and power sequence;
-- i8080 (KR580VM80) main CPU;
-- i8224 (KR580VG24) clock generator;
-- i8238 (KR580VK38) bus controller;
-- i8255 (KR580VV55) PIO controller for keys, I2C bus, 1-wire bus;
-- 32Kb ROM (27c256) and 32Kb RAM (62256);
-- Real-time-clock i2c PCF8563P with battery holder and 32KHz crystal;
-- BUS connector to connect devices directly to internal data BUS (used by TFT screen with parallel interface);
-- PIO Extensions connector to connect buttons, 1-wire devices (like DS18B20), i2c sensors (like BME280) and other:
-![platform](pics/photo_2023-05-08_15-02-55.jpg)
+Этот репозиторий — форк проекта **"i8080 homebrew digital clock/weather station"** автора **Tronix286**: <https://github.com/Tronix286/i8080_clock>.
 
-The following devices are connected externally to the board:
-- 3.5inch TFT LCD screen 480x320 ILI9486 parallel interface;
-- BME280 i2c sensor (temperature, humidity, pressure);
-- DS18B20 1-wire sensor (temperature);
-- buttons (keys);
-![platform](pics/photo_2023-10-27_10-47-33.jpg)
+Моя цель — сделать часы более презентабельными и свести к минимуму использование SMD‑компонентов (с таким процессором использовать их «не комильфо»). Я очень благодарен автору за схему и само устройство — без этой базы не получилось бы так быстро продвинуться.
 
-## Software
-For building [firmware](/software/firmware) you need install [z88dk](https://github.com/z88dk/z88dk) and then add new "clock80" target. 
-Copy files from [clock80](software/z88dk_target/clock80) directory in `z88dk\lib\target\clock80`. Also copy `clock80.cfg` file to `z88dk\lib\config` . 
-Iam using batch script `makeit.bat` for build final firmware named `full.bin`.
+Ключевое отличие от исходного проекта: в этом форке сделан упор на внешний вид и на максимально сквозной/выводной монтаж, поэтому плата и компоновка ориентированы на более «классическое» исполнение и удобство сборки, при сохранении общей архитектуры.
 
-For debugging there is a small [emulator](/software/emulator) of this platform:
+### Что внутри
 
-![emu](pics/photo_2023-10-08_18-09-48.jpg)
+**Аппаратная часть**
+- Плата i8080‑совместимого компьютера с тактированием, шиной, ПЗУ/ОЗУ и часами реального времени.
+- Внешние устройства: TFT‑дисплей, датчики по I2C и 1‑Wire, кнопки.
 
-Building with MinGW `makefile`
+**Проект в KiCad**
+- Полный проект схемы и платы находится в каталоге `hardware/`.
+
+**Фото**
+
+![Плата в сборе](pics/photo_2023-10-27_10-43-03.jpg)
+![Подключение внешних устройств](pics/photo_2023-10-27_10-47-33.jpg)
+
+### ПО
+
+Сборка прошивки описана в каталоге `software/` (используется z88dk и собственная цель `clock80`).
+
+---
+
+## English
+
+This repository is a fork of **"i8080 homebrew digital clock/weather station"** by **Tronix286**: <https://github.com/Tronix286/i8080_clock>.
+
+My goal is to make the clock look more presentable and to minimize the number of SMD parts (with a CPU like this, using SMD feels out of place). I am very grateful to the author for the schematic and the original device — it provided the essential foundation for this work.
+
+Key difference vs the original project: this fork focuses on the physical appearance and on keeping the design as through‑hole as possible. The PCB layout and mechanical decisions are tailored to a more classic, build‑friendly presentation while preserving the overall architecture.
+
+### What’s inside
+
+**Hardware**
+- i8080‑compatible system board with clocking, bus, ROM/RAM, and real‑time clock.
+- External devices: TFT display, I2C and 1‑Wire sensors, and buttons.
+
+**KiCad project**
+- Full schematic and PCB project live under `hardware/`.
+
+**Photos**
+
+![Assembled board](pics/photo_2023-10-27_10-43-03.jpg)
+![External devices](pics/photo_2023-10-27_10-47-33.jpg)
+
+### Software
+
+Firmware build instructions and sources are in `software/` (z88dk with a custom `clock80` target).
