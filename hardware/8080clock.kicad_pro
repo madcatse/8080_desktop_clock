@@ -60,7 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|184442600|89916000|F.Cu|4|664b458d-7ed1-427f-b49a-fb09d1d1d964|72b238af-95f3-4f47-8394-a8e7ff249509",
+          "unconnected_items|184442600|89916000|F.Cu|4|14095b7d-ce61-475a-b962-240ceab33a9c|7a92b676-bac4-4327-9093-c9781649d926",
           ""
         ],
         [
@@ -556,7 +556,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "8080clock.step",

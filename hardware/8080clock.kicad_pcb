@@ -116,9 +116,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber/")
 		)
 	)
 	(net 0 "")
@@ -39048,8 +39048,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Based on i8080 clock\nby Tronix286\ngithub.com/Tronix286/i8080_clock\n\nDouble PCB version \nby MadCat, 2025-2026\ngithub.com/madcatse/8080_desktop_clock\nt.me/madcatse\nVersion 0.1"
-		(at 203.2508 75.7428 180)
+	(gr_text "Double PCB version \nby MadCat, 2025-2026\ngithub.com/madcatse/8080_desktop_clock\nt.me/madcatse\nVersion 0.1"
+		(at 202.5396 78.4352 180)
 		(layer "F.SilkS")
 		(uuid "1d83e99e-83e6-4d21-b062-549c48ca2361")
 		(effects
@@ -39081,6 +39081,17 @@
 				(thickness 0.15)
 			)
 			(justify right bottom)
+		)
+	)
+	(gr_text "Based on i8080 clock\nby Tronix286\ngithub.com/Tronix286/i8080_clock"
+		(at 201.5236 90.678 180)
+		(layer "F.SilkS")
+		(uuid "30c4c7c0-54c7-4cbf-b916-e788b0ab0cf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "D6"
