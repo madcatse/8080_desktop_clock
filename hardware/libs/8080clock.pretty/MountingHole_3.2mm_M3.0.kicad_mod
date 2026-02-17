@@ -1,4 +1,4 @@
-(footprint "MountingHole_2.7mm_M2.5"
+(footprint "MountingHole_3.2mm_M3.0"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_2.7mm_M2.5"
+	(property "Value" "MountingHole_3.2mm_M3.0"
 		(at 0 3.65 0)
 		(layer "F.Fab")
 		(uuid "ede962d0-720f-413e-8525-bd770cb3f7c4")
@@ -88,8 +88,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
-		(size 2.7 2.7)
-		(drill 2.7)
+		(size 3.2 3.2)
+		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(uuid "758b0a54-45e3-41f5-9ed2-d535c3eef00b")
 	)
