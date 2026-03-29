@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|184442600|89916000|F.Cu|4|14095b7d-ce61-475a-b962-240ceab33a9c|7a92b676-bac4-4327-9093-c9781649d926",
-          ""
-        ],
-        [
-          "unconnected_items|189992000|94437200|F.Cu|4|d61f49e2-36ba-4e8b-8880-a291c7537fdf|49ae718e-1b82-403c-96bc-fbc4d7b233eb",
-          ""
-        ],
-        [
-          "unconnected_items|247040400|103804400|F.Cu|4|be715782-db7a-47cb-8e13-bb0cb6c44da4|9f08da21-21e5-4af7-b60f-6bee94967ab4",
-          ""
-        ],
-        [
-          "unconnected_items|249123200|111150400|F.Cu|4|4fbf5479-a8f6-4671-9c33-6e04bebf591b|a86955d0-5354-4a7e-aabe-dd4ba3751ee3",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -647,6 +630,12 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -685,7 +674,7 @@
     },
     "net_format_name": "KiCad",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "docs/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
