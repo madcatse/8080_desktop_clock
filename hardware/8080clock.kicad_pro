@@ -579,7 +579,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/ver1.0/",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "8080clock.step",

@@ -22,12 +22,12 @@
 		)
 		(uuid "a5d9e9fb-adb7-4abd-94e7-4285bbf7dc74")
 		(property "Sheetname" "CPU"
-			(at 160.02 32.3084 0)
+			(at 160.02 30.4034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 5.08 5.08)
 				)
 				(justify left bottom)
 			)
@@ -68,12 +68,12 @@
 		)
 		(uuid "f94da994-97d5-4817-89a5-9f11c4c7d7d9")
 		(property "Sheetname" "Power"
-			(at 26.67 32.3084 0)
+			(at 26.67 30.4034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 5.08 5.08)
 				)
 				(justify left bottom)
 			)
