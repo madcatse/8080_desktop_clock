@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="840" viewBox="0 0 1280 840" role="img" aria-labelledby="title desc">
+  <title id="title">Доработка TFT: отключение буфера данных сигналом LCD_CS</title>
+  <desc id="desc">LCD_CS приходит на вывод 5 буфера управления. Новый провод соединяет эту цепь с выводом 19 буфера данных после отделения его от земли. LCD_RD продолжает задавать направление через DIR.</desc>
+  <defs><style>text{font-family:Arial, sans-serif;fill:#172b4d} .title{font-size:28px;font-weight:bold}.h{font-size:22px;font-weight:bold}.t{font-size:20px}.s{font-size:17px}.wire{fill:none;stroke:#315a80;stroke-width:3;stroke-linejoin:round}.new{fill:none;stroke:#007c6d;stroke-width:5;stroke-linejoin:round}.old{fill:none;stroke:#c23c43;stroke-width:3;stroke-dasharray:8 6}.box{fill:#f4f7fb;stroke:#315a80;stroke-width:2}</style></defs>
+  <rect width="1280" height="840" fill="#fff"/>
+  <text x="40" y="48" class="title">/OE буфера данных должен следовать за LCD_CS</text>
+  <text x="40" y="80" class="s">Поясняющий фрагмент. U_CTRL и U_DATA определяются по цепям, а не по месту на плате.</text>
+  <rect x="35" y="110" width="305" height="535" rx="12" class="box"/>
+  <text x="60" y="146" class="h">Плата часов</text>
+  <text x="60" y="178" class="s">Общая шина через 8238</text>
+  <text x="60" y="210" class="s">ROM · RAM · 8255 · экран</text>
+  <text x="60" y="271" class="t">DB0…DB7</text>
+  <path d="M210 265H540" class="wire" stroke-width="6"/>
+  <path d="M414 254l12 22" class="wire"/>
+  <text x="414" y="244" class="s">8</text>
+  <text x="60" y="416" class="t">/IOR → LCD_RD</text>
+  <path d="M247 410H440V340H540" class="wire"/>
+  <text x="60" y="512" class="t">A4 → инвертор</text>
+  <text x="60" y="542" class="s">U9.2, вывод 4</text>
+  <path d="M242 530H500V565H540" class="wire"/>
+  <text x="355" y="513" class="t">LCD_CS</text>
+  <text x="60" y="600" class="s">/CS 8255 = A4</text>
+  <rect x="540" y="180" width="320" height="230" rx="8" class="box"/>
+  <text x="565" y="218" class="h">U_DATA · LVC245A</text>
+  <text x="565" y="245" class="s">Буфер данных</text>
+  <text x="554" y="281" class="t">A[0…7]</text>
+  <text x="758" y="281" class="t">B[0…7]</text>
+  <path d="M653 270H738m-8-6 8 6-8 6m-69-12-8 6 8 6" class="wire"/>
+  <text x="555" y="347" class="t">1 · DIR</text>
+  <text x="555" y="391" class="t">19 · /OE</text>
+  <path d="M860 265H997" class="wire" stroke-width="6"/>
+  <path d="M920 254l12 22" class="wire"/>
+  <rect x="997" y="180" width="245" height="410" rx="8" class="box"/>
+  <text x="1020" y="220" class="h">Контроллер LCD</text>
+  <text x="1020" y="253" class="s">ILI9486</text>
+  <text x="1011" y="285" class="t">Данные</text>
+  <text x="1011" y="573" class="t">CSX</text>
+  <rect x="540" y="485" width="320" height="140" rx="8" class="box"/>
+  <text x="565" y="518" class="h">U_CTRL · LVC245A</text>
+  <text x="565" y="545" class="s">Буфер управления</text>
+  <text x="555" y="588" class="t">5 · A3</text>
+  <text x="762" y="588" class="t">15 · B3</text>
+  <path d="M638 565H743m-10-7 10 7-10 7" class="wire"/>
+  <path d="M860 565H997" class="wire"/>
+  <circle cx="500" cy="565" r="6" fill="#007c6d"/>
+  <path d="M500 565V385H530" class="new"/>
+  <circle cx="535" cy="385" r="5" fill="#fff" stroke="#315a80" stroke-width="2"/>
+  <text x="355" y="452" class="s" fill="#007c6d" style="fill:#007c6d">Новый провод</text>
+  <path d="M500 385H405V345" class="old"/>
+  <path d="M390 345H420m-24-7h18m-12-7h6" fill="none" stroke="#c23c43" stroke-width="3"/>
+  <path d="M460 373l20 24m0-24-20 24" stroke="#c23c43" stroke-width="4"/>
+  <text x="353" y="321" class="s" style="fill:#c23c43">GND: разорвать</text>
+  <rect x="35" y="677" width="1207" height="122" rx="10" fill="#eaf5f2"/>
+  <text x="60" y="710" class="h">После мода</text>
+  <text x="60" y="745" class="t">LCD_CS = 1 → /OE = 1 → выходы буфера данных отключены (Hi-Z).</text>
+  <text x="60" y="776" class="t">LCD_CS = 0 → /OE = 0 → направление передачи по-прежнему задаёт LCD_RD.</text>
+  <text x="40" y="827" class="s">Питание, GND вывода 10, остальные сигналы управления и внутренняя разводка LCD здесь не показаны.</text>
+</svg>

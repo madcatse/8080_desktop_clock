@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="840" viewBox="0 0 1000 840" role="img" aria-labelledby="title desc">
+  <title id="title">74LVC245A: распиновка 20-выводного корпуса, вид сверху</title>
+  <desc id="desc">Слева сверху вниз выводы 1-10, справа сверху вниз 20-11. Вывод 19 — активное низким уровнем разрешение выходов, вывод 5 — канал A3. Земля на выводе 10.</desc>
+  <defs><style>text{font-family:Arial,sans-serif;fill:#172b4d}.title{font-size:28px;font-weight:bold}.t{font-size:22px}.s{font-size:19px}.pin{stroke:#315a80;stroke-width:4}.green{fill:#007c6d;font-weight:bold}</style></defs>
+  <rect width="1000" height="840" fill="#fff"/>
+  <text x="45" y="48" class="title">74LVC245A · вид сверху</text>
+  <text x="45" y="80" class="s">Найдите метку вывода 1 на корпусе. Не считайте выводы по ориентации надписи.</text>
+  <rect x="335" y="120" width="330" height="555" rx="12" fill="#f4f7fb" stroke="#315a80" stroke-width="3"/>
+  <circle cx="365" cy="148" r="9" fill="#315a80"/>
+  <path d="M475 120a25 25 0 0 0 50 0" fill="#fff" stroke="#315a80" stroke-width="3"/>
+  <text x="397" y="380" class="title">LVC245A</text>
+  <text x="382" y="419" class="s">Метка 1 — слева сверху</text>
+  <g class="pin">
+    <path d="M280 180H335M280 230H335M280 280H335M280 330H335M280 380H335M280 430H335M280 480H335M280 530H335M280 580H335M280 630H335"/>
+    <path d="M665 180H720M665 230H720M665 280H720M665 330H720M665 380H720M665 430H720M665 480H720M665 530H720M665 580H720M665 630H720"/>
+  </g>
+  <rect x="105" y="356" width="220" height="45" rx="7" fill="#e0f3ed"/>
+  <rect x="675" y="206" width="285" height="45" rx="7" fill="#e0f3ed"/>
+  <g class="t" text-anchor="end">
+    <text x="260" y="188">DIR · 1</text><text x="260" y="238">A0 · 2</text>
+    <text x="260" y="288">A1 · 3</text><text x="260" y="338">A2 · 4</text>
+    <text x="260" y="388" class="green">A3 · 5</text><text x="260" y="438">A4 · 6</text>
+    <text x="260" y="488">A5 · 7</text><text x="260" y="538">A6 · 8</text>
+    <text x="260" y="588">A7 · 9</text><text x="260" y="638">GND · 10</text>
+  </g>
+  <g class="t">
+    <text x="740" y="188">20 · VCC</text><text x="740" y="238" class="green">19 · /OE</text>
+    <text x="740" y="288">18 · B0</text><text x="740" y="338">17 · B1</text>
+    <text x="740" y="388">16 · B2</text><text x="740" y="438">15 · B3</text>
+    <text x="740" y="488">14 · B4</text><text x="740" y="538">13 · B5</text>
+    <text x="740" y="588">12 · B6</text><text x="740" y="638">11 · B7</text>
+  </g>
+  <text x="45" y="722" class="t">19: изолировать от GND только на буфере данных.</text>
+  <text x="45" y="758" class="t">5: точка LCD_CS на ДРУГОЙ микросхеме — подтвердить прозвонкой.</text>
+  <text x="45" y="803" class="s">По Nexperia 74LVC245A / 74LVCH245A, Rev. 13, стр. 3. Землю вывода 10 сохранять.</text>
+</svg>
