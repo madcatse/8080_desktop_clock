@@ -1,0 +1,6 @@
+.tools/
+build/
+__pycache__/
+*.pyc
+variants/vector-terminal/dist/
+variants/vector-terminal/tests/out/

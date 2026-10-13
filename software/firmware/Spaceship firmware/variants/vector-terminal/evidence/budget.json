@@ -1,0 +1,165 @@
+{
+  "version": "delta-v2",
+  "frequency_hz": 3555556,
+  "scene_layer_bytes": 20646,
+  "scene_span_bytes": 444,
+  "main_stack_bytes": 189,
+  "maximum_observed_call_stack_bytes": 191,
+  "sensor_startup": {
+    "sha256": "f253f3194292b9d76030fa70b23b0557b0fd9c4bbe4e186e9801b234e3af46cd",
+    "method": "Published hardware ROM; responding RTC/BME byte fixtures, DS absent. LCD writes resume between four service stages.",
+    "stages": [
+      {
+        "stage": "BME init",
+        "cycles": 418677,
+        "ms": 117.75289153088856,
+        "pixels_before": 15360
+      },
+      {
+        "stage": "BME measurement",
+        "cycles": 204511,
+        "ms": 57.51871156016105,
+        "pixels_before": 30720
+      },
+      {
+        "stage": "DS start",
+        "cycles": 47352,
+        "ms": 13.317748335281458,
+        "pixels_before": 46080
+      },
+      {
+        "stage": "forecast",
+        "cycles": 425247,
+        "ms": 119.60070379991203,
+        "pixels_before": 61440
+      }
+    ],
+    "maximum_service_ms": 119.60070379991203,
+    "first_clear_cycles": 6268161,
+    "repeat_clear_cycles": 5347826,
+    "stack_bytes": 130,
+    "result": "PASS"
+  },
+  "memory": {
+    "hardware": {
+      "rom_used": 27831,
+      "rom_free": 4937,
+      "bss_start": 32768,
+      "data_start": 54914,
+      "data_end_exclusive": 57126,
+      "static_to_stack_gap": 7898,
+      "sha256": "f253f3194292b9d76030fa70b23b0557b0fd9c4bbe4e186e9801b234e3af46cd",
+      "bss_bytes": 22146,
+      "data_bytes": 2212,
+      "static_RAM_bytes": 24358
+    },
+    "emulator": {
+      "rom_used": 27738,
+      "rom_free": 5030,
+      "bss_start": 32768,
+      "data_start": 54914,
+      "data_end_exclusive": 57125,
+      "static_to_stack_gap": 7899,
+      "sha256": "fa81d69c63da051c132b60bade69fce2248875aace47aa72429b751cad451729",
+      "bss_bytes": 22146,
+      "data_bytes": 2211,
+      "static_RAM_bytes": 24357
+    }
+  },
+  "emulator_ship": {
+    "cycles": {
+      "min": 2002615,
+      "mean": 2668599.921875,
+      "max": 3039409
+    },
+    "pixels": {
+      "min": 126,
+      "mean": 570.140625,
+      "max": 849
+    },
+    "lcd_writes": {
+      "min": 1638,
+      "mean": 6115.890625,
+      "max": 8093
+    },
+    "max_step_cycles": {
+      "min": 101481,
+      "mean": 149745.125,
+      "max": 250906
+    },
+    "fps": 1.3323675725441118,
+    "samples": 64
+  },
+  "emulator_cube": {
+    "cycles": {
+      "min": 2622671,
+      "mean": 2862559.78125,
+      "max": 3087964
+    },
+    "pixels": {
+      "min": 468,
+      "mean": 718.15625,
+      "max": 995
+    },
+    "lcd_writes": {
+      "min": 6084,
+      "mean": 7922.359375,
+      "max": 9866
+    },
+    "max_step_cycles": {
+      "min": 101062,
+      "mean": 150063.515625,
+      "max": 268688
+    },
+    "fps": 1.2420896930394894,
+    "samples": 64
+  },
+  "hardware_ship": {
+    "cycles": {
+      "min": 2181320,
+      "mean": 2836786.484375,
+      "max": 3270619
+    },
+    "pixels": {
+      "min": 152,
+      "mean": 577.640625,
+      "max": 823
+    },
+    "lcd_writes": {
+      "min": 1965,
+      "mean": 6132.609375,
+      "max": 7992
+    },
+    "max_step_cycles": {
+      "min": 108165,
+      "mean": 189122.84375,
+      "max": 365886
+    },
+    "fps": 1.2533745558870848,
+    "samples": 64
+  },
+  "hardware_cube": {
+    "cycles": {
+      "min": 2781883,
+      "mean": 3015320.6875,
+      "max": 3304113
+    },
+    "pixels": {
+      "min": 482,
+      "mean": 720.359375,
+      "max": 1011
+    },
+    "lcd_writes": {
+      "min": 6266,
+      "mean": 7927.28125,
+      "max": 9967
+    },
+    "max_step_cycles": {
+      "min": 110712,
+      "mean": 193134.65625,
+      "max": 320381
+    },
+    "fps": 1.1791634683300996,
+    "samples": 64
+  }
+}

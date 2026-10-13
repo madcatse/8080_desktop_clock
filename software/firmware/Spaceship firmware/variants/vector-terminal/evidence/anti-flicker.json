@@ -1,0 +1,2077 @@
+{
+  "frequency_hz": 3555556,
+  "checks": {
+    "128_delta_frames_never_clear_entire_object": "PASS",
+    "every_changed_pixel_written_once_no_black_over_new_scene": "PASS",
+    "preparation_leaves_LCD_untouched": "PASS",
+    "working_v1_trace_reproduces_zero_object_pixels": "PASS",
+    "360_palette_mask_rasters_exact_and_zero_LCD_writes": "PASS",
+    "24_stars_and_stride_crossings_exact": "PASS",
+    "256_changed_byte_masks_add_and_remove": "PASS",
+    "padding_bits_cannot_touch_outside_viewport": "PASS",
+    "working_v1_archive_preserved_byte_for_byte": "PASS"
+  },
+  "frames": {
+    "working-v1": {
+      "cube": [
+        {
+          "cycles": 794140,
+          "minimum_object_pixels": 0,
+          "scene_writes": 772,
+          "changed_pixels": 565,
+          "unchanged_pixel_writes": 31,
+          "black_writes_over_new_nonblack": 90
+        },
+        {
+          "cycles": 772176,
+          "minimum_object_pixels": 0,
+          "scene_writes": 734,
+          "changed_pixels": 558,
+          "unchanged_pixel_writes": 31,
+          "black_writes_over_new_nonblack": 77
+        },
+        {
+          "cycles": 772699,
+          "minimum_object_pixels": 0,
+          "scene_writes": 720,
+          "changed_pixels": 495,
+          "unchanged_pixel_writes": 31,
+          "black_writes_over_new_nonblack": 98
+        },
+        {
+          "cycles": 779399,
+          "minimum_object_pixels": 0,
+          "scene_writes": 737,
+          "changed_pixels": 513,
+          "unchanged_pixel_writes": 34,
+          "black_writes_over_new_nonblack": 84
+        },
+        {
+          "cycles": 786354,
+          "minimum_object_pixels": 0,
+          "scene_writes": 764,
+          "changed_pixels": 507,
+          "unchanged_pixel_writes": 64,
+          "black_writes_over_new_nonblack": 100
+        },
+        {
+          "cycles": 793198,
+          "minimum_object_pixels": 0,
+          "scene_writes": 801,
+          "changed_pixels": 579,
+          "unchanged_pixel_writes": 57,
+          "black_writes_over_new_nonblack": 96
+        },
+        {
+          "cycles": 796443,
+          "minimum_object_pixels": 0,
+          "scene_writes": 828,
+          "changed_pixels": 459,
+          "unchanged_pixel_writes": 53,
+          "black_writes_over_new_nonblack": 161
+        },
+        {
+          "cycles": 793213,
+          "minimum_object_pixels": 0,
+          "scene_writes": 849,
+          "changed_pixels": 607,
+          "unchanged_pixel_writes": 47,
+          "black_writes_over_new_nonblack": 102
+        },
+        {
+          "cycles": 784916,
+          "minimum_object_pixels": 0,
+          "scene_writes": 859,
+          "changed_pixels": 541,
+          "unchanged_pixel_writes": 31,
+          "black_writes_over_new_nonblack": 147
+        },
+        {
+          "cycles": 767309,
+          "minimum_object_pixels": 0,
+          "scene_writes": 859,
+          "changed_pixels": 646,
+          "unchanged_pixel_writes": 28,
+          "black_writes_over_new_nonblack": 93
+        },
+        {
+          "cycles": 792150,
+          "minimum_object_pixels": 0,
+          "scene_writes": 860,
+          "changed_pixels": 585,
+          "unchanged_pixel_writes": 26,
+          "black_writes_over_new_nonblack": 124
+        },
+        {
+          "cycles": 827300,
+          "minimum_object_pixels": 0,
+          "scene_writes": 860,
+          "changed_pixels": 668,
+          "unchanged_pixel_writes": 26,
+          "black_writes_over_new_nonblack": 85
+        },
+        {
+          "cycles": 832504,
+          "minimum_object_pixels": 0,
+          "scene_writes": 846,
+          "changed_pixels": 621,
+          "unchanged_pixel_writes": 29,
+          "black_writes_over_new_nonblack": 103
+        },
+        {
+          "cycles": 831914,
+          "minimum_object_pixels": 0,
+          "scene_writes": 825,
+          "changed_pixels": 596,
+          "unchanged_pixel_writes": 28,
+          "black_writes_over_new_nonblack": 112
+        },
+        {
+          "cycles": 826636,
+          "minimum_object_pixels": 0,
+          "scene_writes": 801,
+          "changed_pixels": 538,
+          "unchanged_pixel_writes": 35,
+          "black_writes_over_new_nonblack": 96
+        },
+        {
+          "cycles": 820090,
+          "minimum_object_pixels": 0,
+          "scene_writes": 764,
+          "changed_pixels": 528,
+          "unchanged_pixel_writes": 70,
+          "black_writes_over_new_nonblack": 77
+        },
+        {
+          "cycles": 807612,
+          "minimum_object_pixels": 0,
+          "scene_writes": 725,
+          "changed_pixels": 482,
+          "unchanged_pixel_writes": 64,
+          "black_writes_over_new_nonblack": 105
+        },
+        {
+          "cycles": 788383,
+          "minimum_object_pixels": 0,
+          "scene_writes": 708,
+          "changed_pixels": 504,
+          "unchanged_pixel_writes": 32,
+          "black_writes_over_new_nonblack": 92
+        },
+        {
+          "cycles": 804757,
+          "minimum_object_pixels": 0,
+          "scene_writes": 720,
+          "changed_pixels": 487,
+          "unchanged_pixel_writes": 30,
+          "black_writes_over_new_nonblack": 102
+        },
+        {
+          "cycles": 819345,
+          "minimum_object_pixels": 0,
+          "scene_writes": 758,
+          "changed_pixels": 593,
+          "unchanged_pixel_writes": 29,
+          "black_writes_over_new_nonblack": 76
+        },
+        {
+          "cycles": 833302,
+          "minimum_object_pixels": 0,
+          "scene_writes": 807,
+          "changed_pixels": 553,
+          "unchanged_pixel_writes": 29,
+          "black_writes_over_new_nonblack": 116
+        },
+        {
+          "cycles": 847781,
+          "minimum_object_pixels": 0,
+          "scene_writes": 851,
+          "changed_pixels": 614,
+          "unchanged_pixel_writes": 33,
+          "black_writes_over_new_nonblack": 100
+        },
+        {
+          "cycles": 853040,
+          "minimum_object_pixels": 0,
+          "scene_writes": 881,
+          "changed_pixels": 487,
+          "unchanged_pixel_writes": 41,
+          "black_writes_over_new_nonblack": 172
+        },
+        {
+          "cycles": 846544,
+          "minimum_object_pixels": 0,
+          "scene_writes": 896,
+          "changed_pixels": 647,
+          "unchanged_pixel_writes": 55,
+          "black_writes_over_new_nonblack": 102
+        },
+        {
+          "cycles": 842032,
+          "minimum_object_pixels": 0,
+          "scene_writes": 912,
+          "changed_pixels": 640,
+          "unchanged_pixel_writes": 42,
+          "black_writes_over_new_nonblack": 120
+        },
+        {
+          "cycles": 833280,
+          "minimum_object_pixels": 0,
+          "scene_writes": 922,
+          "changed_pixels": 629,
+          "unchanged_pixel_writes": 41,
+          "black_writes_over_new_nonblack": 116
+        },
+        {
+          "cycles": 861756,
+          "minimum_object_pixels": 0,
+          "scene_writes": 922,
+          "changed_pixels": 599,
+          "unchanged_pixel_writes": 75,
+          "black_writes_over_new_nonblack": 159
+        },
+        {
+          "cycles": 861973,
+          "minimum_object_pixels": 0,
+          "scene_writes": 915,
+          "changed_pixels": 619,
+          "unchanged_pixel_writes": 61,
+          "black_writes_over_new_nonblack": 120
+        },
+        {
+          "cycles": 864992,
+          "minimum_object_pixels": 0,
+          "scene_writes": 902,
+          "changed_pixels": 608,
+          "unchanged_pixel_writes": 51,
+          "black_writes_over_new_nonblack": 124
+        },
+        {
+          "cycles": 866501,
+          "minimum_object_pixels": 0,
+          "scene_writes": 890,
+          "changed_pixels": 619,
+          "unchanged_pixel_writes": 33,
+          "black_writes_over_new_nonblack": 126
+        },
+        {
+          "cycles": 861776,
+          "minimum_object_pixels": 0,
+          "scene_writes": 877,
+          "changed_pixels": 619,
+          "unchanged_pixel_writes": 29,
+          "black_writes_over_new_nonblack": 118
+        },
+        {
+          "cycles": 861692,
+          "minimum_object_pixels": 0,
+          "scene_writes": 873,
+          "changed_pixels": 652,
+          "unchanged_pixel_writes": 29,
+          "black_writes_over_new_nonblack": 98
+        },
+        {
+          "cycles": 861613,
+          "minimum_object_pixels": 0,
+          "scene_writes": 877,
+          "changed_pixels": 545,
+          "unchanged_pixel_writes": 33,
+          "black_writes_over_new_nonblack": 155
+        },
+        {
+          "cycles": 848237,
+          "minimum_object_pixels": 0,
+          "scene_writes": 881,
+          "changed_pixels": 622,
+          "unchanged_pixel_writes": 49,
+          "black_writes_over_new_nonblack": 110
+        },
+        {
+          "cycles": 861167,
+          "minimum_object_pixels": 0,
+          "scene_writes": 891,
+          "changed_pixels": 469,
+          "unchanged_pixel_writes": 50,
+          "black_writes_over_new_nonblack": 190
+        },
+        {
+          "cycles": 861875,
+          "minimum_object_pixels": 0,
+          "scene_writes": 901,
+          "changed_pixels": 661,
+          "unchanged_pixel_writes": 36,
+          "black_writes_over_new_nonblack": 107
+        },
+        {
+          "cycles": 855341,
+          "minimum_object_pixels": 0,
+          "scene_writes": 900,
+          "changed_pixels": 540,
+          "unchanged_pixel_writes": 36,
+          "black_writes_over_new_nonblack": 169
+        },
+        {
+          "cycles": 847662,
+          "minimum_object_pixels": 0,
+          "scene_writes": 895,
+          "changed_pixels": 691,
+          "unchanged_pixel_writes": 37,
+          "black_writes_over_new_nonblack": 80
+        },
+        {
+          "cycles": 840025,
+          "minimum_object_pixels": 0,
+          "scene_writes": 893,
+          "changed_pixels": 482,
+          "unchanged_pixel_writes": 51,
+          "black_writes_over_new_nonblack": 187
+        },
+        {
+          "cycles": 829288,
+          "minimum_object_pixels": 0,
+          "scene_writes": 882,
+          "changed_pixels": 654,
+          "unchanged_pixel_writes": 53,
+          "black_writes_over_new_nonblack": 102
+        },
+        {
+          "cycles": 822839,
+          "minimum_object_pixels": 0,
+          "scene_writes": 871,
+          "changed_pixels": 519,
+          "unchanged_pixel_writes": 43,
+          "black_writes_over_new_nonblack": 165
+        },
+        {
+          "cycles": 788502,
+          "minimum_object_pixels": 0,
+          "scene_writes": 864,
+          "changed_pixels": 726,
+          "unchanged_pixel_writes": 28,
+          "black_writes_over_new_nonblack": 56
+        },
+        {
+          "cycles": 797588,
+          "minimum_object_pixels": 0,
+          "scene_writes": 872,
+          "changed_pixels": 525,
+          "unchanged_pixel_writes": 29,
+          "black_writes_over_new_nonblack": 162
+        },
+        {
+          "cycles": 828532,
+          "minimum_object_pixels": 0,
+          "scene_writes": 879,
+          "changed_pixels": 666,
+          "unchanged_pixel_writes": 39,
+          "black_writes_over_new_nonblack": 89
+        },
+        {
+          "cycles": 836862,
+          "minimum_object_pixels": 0,
+          "scene_writes": 884,
+          "changed_pixels": 523,
+          "unchanged_pixel_writes": 42,
+          "black_writes_over_new_nonblack": 171
+        },
+        {
+          "cycles": 845996,
+          "minimum_object_pixels": 0,
+          "scene_writes": 895,
+          "changed_pixels": 655,
+          "unchanged_pixel_writes": 46,
+          "black_writes_over_new_nonblack": 103
+        },
+        {
+          "cycles": 845235,
+          "minimum_object_pixels": 0,
+          "scene_writes": 900,
+          "changed_pixels": 458,
+          "unchanged_pixel_writes": 62,
+          "black_writes_over_new_nonblack": 195
+        },
+        {
+          "cycles": 858873,
+          "minimum_object_pixels": 0,
+          "scene_writes": 905,
+          "changed_pixels": 692,
+          "unchanged_pixel_writes": 54,
+          "black_writes_over_new_nonblack": 88
+        },
+        {
+          "cycles": 865116,
+          "minimum_object_pixels": 0,
+          "scene_writes": 905,
+          "changed_pixels": 555,
+          "unchanged_pixel_writes": 38,
+          "black_writes_over_new_nonblack": 162
+        },
+        {
+          "cycles": 846793,
+          "minimum_object_pixels": 0,
+          "scene_writes": 895,
+          "changed_pixels": 619,
+          "unchanged_pixel_writes": 54,
+          "black_writes_over_new_nonblack": 118
+        },
+        {
+          "cycles": 865429,
+          "minimum_object_pixels": 0,
+          "scene_writes": 891,
+          "changed_pixels": 478,
+          "unchanged_pixel_writes": 50,
+          "black_writes_over_new_nonblack": 191
+        },
+        {
+          "cycles": 866204,
+          "minimum_object_pixels": 0,
+          "scene_writes": 887,
+          "changed_pixels": 649,
+          "unchanged_pixel_writes": 34,
+          "black_writes_over_new_nonblack": 108
+        },
+        {
+          "cycles": 861509,
+          "minimum_object_pixels": 0,
+          "scene_writes": 881,
+          "changed_pixels": 590,
+          "unchanged_pixel_writes": 31,
+          "black_writes_over_new_nonblack": 131
+        },
+        {
+          "cycles": 867667,
+          "minimum_object_pixels": 0,
+          "scene_writes": 885,
+          "changed_pixels": 712,
+          "unchanged_pixel_writes": 31,
+          "black_writes_over_new_nonblack": 73
+        },
+        {
+          "cycles": 867975,
+          "minimum_object_pixels": 0,
+          "scene_writes": 891,
+          "changed_pixels": 554,
+          "unchanged_pixel_writes": 32,
+          "black_writes_over_new_nonblack": 153
+        },
+        {
+          "cycles": 865906,
+          "minimum_object_pixels": 0,
+          "scene_writes": 903,
+          "changed_pixels": 663,
+          "unchanged_pixel_writes": 50,
+          "black_writes_over_new_nonblack": 96
+        },
+        {
+          "cycles": 870314,
+          "minimum_object_pixels": 0,
+          "scene_writes": 919,
+          "changed_pixels": 567,
+          "unchanged_pixel_writes": 57,
+          "black_writes_over_new_nonblack": 157
+        },
+        {
+          "cycles": 808378,
+          "minimum_object_pixels": 0,
+          "scene_writes": 926,
+          "changed_pixels": 692,
+          "unchanged_pixel_writes": 42,
+          "black_writes_over_new_nonblack": 105
+        },
+        {
+          "cycles": 814162,
+          "minimum_object_pixels": 0,
+          "scene_writes": 922,
+          "changed_pixels": 599,
+          "unchanged_pixel_writes": 75,
+          "black_writes_over_new_nonblack": 159
+        },
+        {
+          "cycles": 814828,
+          "minimum_object_pixels": 0,
+          "scene_writes": 912,
+          "changed_pixels": 635,
+          "unchanged_pixel_writes": 51,
+          "black_writes_over_new_nonblack": 114
+        },
+        {
+          "cycles": 820200,
+          "minimum_object_pixels": 0,
+          "scene_writes": 896,
+          "changed_pixels": 593,
+          "unchanged_pixel_writes": 46,
+          "black_writes_over_new_nonblack": 135
+        },
+        {
+          "cycles": 823309,
+          "minimum_object_pixels": 0,
+          "scene_writes": 881,
+          "changed_pixels": 591,
+          "unchanged_pixel_writes": 43,
+          "black_writes_over_new_nonblack": 129
+        },
+        {
+          "cycles": 820149,
+          "minimum_object_pixels": 0,
+          "scene_writes": 854,
+          "changed_pixels": 633,
+          "unchanged_pixel_writes": 37,
+          "black_writes_over_new_nonblack": 94
+        },
+        {
+          "cycles": 807727,
+          "minimum_object_pixels": 0,
+          "scene_writes": 810,
+          "changed_pixels": 623,
+          "unchanged_pixel_writes": 31,
+          "black_writes_over_new_nonblack": 82
+        }
+      ],
+      "ship": [
+        {
+          "cycles": 955992,
+          "minimum_object_pixels": 0,
+          "scene_writes": 839,
+          "changed_pixels": 542,
+          "unchanged_pixel_writes": 74,
+          "black_writes_over_new_nonblack": 131
+        },
+        {
+          "cycles": 947747,
+          "minimum_object_pixels": 0,
+          "scene_writes": 823,
+          "changed_pixels": 495,
+          "unchanged_pixel_writes": 73,
+          "black_writes_over_new_nonblack": 150
+        },
+        {
+          "cycles": 946162,
+          "minimum_object_pixels": 0,
+          "scene_writes": 819,
+          "changed_pixels": 517,
+          "unchanged_pixel_writes": 72,
+          "black_writes_over_new_nonblack": 130
+        },
+        {
+          "cycles": 954727,
+          "minimum_object_pixels": 0,
+          "scene_writes": 844,
+          "changed_pixels": 533,
+          "unchanged_pixel_writes": 93,
+          "black_writes_over_new_nonblack": 113
+        },
+        {
+          "cycles": 961083,
+          "minimum_object_pixels": 0,
+          "scene_writes": 872,
+          "changed_pixels": 478,
+          "unchanged_pixel_writes": 127,
+          "black_writes_over_new_nonblack": 171
+        },
+        {
+          "cycles": 967045,
+          "minimum_object_pixels": 0,
+          "scene_writes": 898,
+          "changed_pixels": 509,
+          "unchanged_pixel_writes": 131,
+          "black_writes_over_new_nonblack": 155
+        },
+        {
+          "cycles": 974119,
+          "minimum_object_pixels": 0,
+          "scene_writes": 921,
+          "changed_pixels": 504,
+          "unchanged_pixel_writes": 113,
+          "black_writes_over_new_nonblack": 185
+        },
+        {
+          "cycles": 977476,
+          "minimum_object_pixels": 0,
+          "scene_writes": 944,
+          "changed_pixels": 553,
+          "unchanged_pixel_writes": 101,
+          "black_writes_over_new_nonblack": 171
+        },
+        {
+          "cycles": 978509,
+          "minimum_object_pixels": 0,
+          "scene_writes": 959,
+          "changed_pixels": 532,
+          "unchanged_pixel_writes": 129,
+          "black_writes_over_new_nonblack": 177
+        },
+        {
+          "cycles": 965168,
+          "minimum_object_pixels": 0,
+          "scene_writes": 959,
+          "changed_pixels": 538,
+          "unchanged_pixel_writes": 142,
+          "black_writes_over_new_nonblack": 150
+        },
+        {
+          "cycles": 1000706,
+          "minimum_object_pixels": 0,
+          "scene_writes": 958,
+          "changed_pixels": 520,
+          "unchanged_pixel_writes": 152,
+          "black_writes_over_new_nonblack": 161
+        },
+        {
+          "cycles": 1035665,
+          "minimum_object_pixels": 0,
+          "scene_writes": 958,
+          "changed_pixels": 530,
+          "unchanged_pixel_writes": 128,
+          "black_writes_over_new_nonblack": 167
+        },
+        {
+          "cycles": 1035688,
+          "minimum_object_pixels": 0,
+          "scene_writes": 946,
+          "changed_pixels": 555,
+          "unchanged_pixel_writes": 110,
+          "black_writes_over_new_nonblack": 150
+        },
+        {
+          "cycles": 1025201,
+          "minimum_object_pixels": 0,
+          "scene_writes": 923,
+          "changed_pixels": 472,
+          "unchanged_pixel_writes": 102,
+          "black_writes_over_new_nonblack": 187
+        },
+        {
+          "cycles": 1016905,
+          "minimum_object_pixels": 0,
+          "scene_writes": 901,
+          "changed_pixels": 508,
+          "unchanged_pixel_writes": 102,
+          "black_writes_over_new_nonblack": 151
+        },
+        {
+          "cycles": 1013886,
+          "minimum_object_pixels": 0,
+          "scene_writes": 875,
+          "changed_pixels": 497,
+          "unchanged_pixel_writes": 104,
+          "black_writes_over_new_nonblack": 159
+        },
+        {
+          "cycles": 1008165,
+          "minimum_object_pixels": 0,
+          "scene_writes": 846,
+          "changed_pixels": 541,
+          "unchanged_pixel_writes": 98,
+          "black_writes_over_new_nonblack": 118
+        },
+        {
+          "cycles": 996455,
+          "minimum_object_pixels": 0,
+          "scene_writes": 821,
+          "changed_pixels": 503,
+          "unchanged_pixel_writes": 80,
+          "black_writes_over_new_nonblack": 136
+        },
+        {
+          "cycles": 997697,
+          "minimum_object_pixels": 0,
+          "scene_writes": 824,
+          "changed_pixels": 515,
+          "unchanged_pixel_writes": 68,
+          "black_writes_over_new_nonblack": 126
+        },
+        {
+          "cycles": 1004621,
+          "minimum_object_pixels": 0,
+          "scene_writes": 840,
+          "changed_pixels": 549,
+          "unchanged_pixel_writes": 70,
+          "black_writes_over_new_nonblack": 125
+        },
+        {
+          "cycles": 1000711,
+          "minimum_object_pixels": 0,
+          "scene_writes": 848,
+          "changed_pixels": 501,
+          "unchanged_pixel_writes": 72,
+          "black_writes_over_new_nonblack": 152
+        },
+        {
+          "cycles": 999614,
+          "minimum_object_pixels": 0,
+          "scene_writes": 853,
+          "changed_pixels": 510,
+          "unchanged_pixel_writes": 74,
+          "black_writes_over_new_nonblack": 148
+        },
+        {
+          "cycles": 997041,
+          "minimum_object_pixels": 0,
+          "scene_writes": 859,
+          "changed_pixels": 484,
+          "unchanged_pixel_writes": 76,
+          "black_writes_over_new_nonblack": 161
+        },
+        {
+          "cycles": 986370,
+          "minimum_object_pixels": 0,
+          "scene_writes": 858,
+          "changed_pixels": 501,
+          "unchanged_pixel_writes": 97,
+          "black_writes_over_new_nonblack": 121
+        },
+        {
+          "cycles": 974665,
+          "minimum_object_pixels": 0,
+          "scene_writes": 858,
+          "changed_pixels": 510,
+          "unchanged_pixel_writes": 109,
+          "black_writes_over_new_nonblack": 130
+        },
+        {
+          "cycles": 965129,
+          "minimum_object_pixels": 0,
+          "scene_writes": 860,
+          "changed_pixels": 526,
+          "unchanged_pixel_writes": 101,
+          "black_writes_over_new_nonblack": 132
+        },
+        {
+          "cycles": 996840,
+          "minimum_object_pixels": 0,
+          "scene_writes": 851,
+          "changed_pixels": 485,
+          "unchanged_pixel_writes": 92,
+          "black_writes_over_new_nonblack": 153
+        },
+        {
+          "cycles": 987536,
+          "minimum_object_pixels": 0,
+          "scene_writes": 826,
+          "changed_pixels": 498,
+          "unchanged_pixel_writes": 112,
+          "black_writes_over_new_nonblack": 130
+        },
+        {
+          "cycles": 980015,
+          "minimum_object_pixels": 0,
+          "scene_writes": 798,
+          "changed_pixels": 465,
+          "unchanged_pixel_writes": 106,
+          "black_writes_over_new_nonblack": 131
+        },
+        {
+          "cycles": 969144,
+          "minimum_object_pixels": 0,
+          "scene_writes": 779,
+          "changed_pixels": 461,
+          "unchanged_pixel_writes": 80,
+          "black_writes_over_new_nonblack": 138
+        },
+        {
+          "cycles": 963120,
+          "minimum_object_pixels": 0,
+          "scene_writes": 770,
+          "changed_pixels": 421,
+          "unchanged_pixel_writes": 66,
+          "black_writes_over_new_nonblack": 163
+        },
+        {
+          "cycles": 961439,
+          "minimum_object_pixels": 0,
+          "scene_writes": 767,
+          "changed_pixels": 478,
+          "unchanged_pixel_writes": 74,
+          "black_writes_over_new_nonblack": 119
+        },
+        {
+          "cycles": 961617,
+          "minimum_object_pixels": 0,
+          "scene_writes": 771,
+          "changed_pixels": 449,
+          "unchanged_pixel_writes": 87,
+          "black_writes_over_new_nonblack": 135
+        },
+        {
+          "cycles": 958101,
+          "minimum_object_pixels": 0,
+          "scene_writes": 775,
+          "changed_pixels": 444,
+          "unchanged_pixel_writes": 96,
+          "black_writes_over_new_nonblack": 130
+        },
+        {
+          "cycles": 954055,
+          "minimum_object_pixels": 0,
+          "scene_writes": 776,
+          "changed_pixels": 311,
+          "unchanged_pixel_writes": 101,
+          "black_writes_over_new_nonblack": 224
+        },
+        {
+          "cycles": 950985,
+          "minimum_object_pixels": 0,
+          "scene_writes": 785,
+          "changed_pixels": 431,
+          "unchanged_pixel_writes": 114,
+          "black_writes_over_new_nonblack": 138
+        },
+        {
+          "cycles": 948176,
+          "minimum_object_pixels": 0,
+          "scene_writes": 788,
+          "changed_pixels": 275,
+          "unchanged_pixel_writes": 132,
+          "black_writes_over_new_nonblack": 230
+        },
+        {
+          "cycles": 942297,
+          "minimum_object_pixels": 0,
+          "scene_writes": 787,
+          "changed_pixels": 401,
+          "unchanged_pixel_writes": 132,
+          "black_writes_over_new_nonblack": 149
+        },
+        {
+          "cycles": 943158,
+          "minimum_object_pixels": 0,
+          "scene_writes": 788,
+          "changed_pixels": 243,
+          "unchanged_pixel_writes": 126,
+          "black_writes_over_new_nonblack": 260
+        },
+        {
+          "cycles": 941360,
+          "minimum_object_pixels": 0,
+          "scene_writes": 795,
+          "changed_pixels": 315,
+          "unchanged_pixel_writes": 121,
+          "black_writes_over_new_nonblack": 201
+        },
+        {
+          "cycles": 947219,
+          "minimum_object_pixels": 0,
+          "scene_writes": 812,
+          "changed_pixels": 162,
+          "unchanged_pixel_writes": 144,
+          "black_writes_over_new_nonblack": 322
+        },
+        {
+          "cycles": 915235,
+          "minimum_object_pixels": 0,
+          "scene_writes": 833,
+          "changed_pixels": 304,
+          "unchanged_pixel_writes": 159,
+          "black_writes_over_new_nonblack": 238
+        },
+        {
+          "cycles": 928910,
+          "minimum_object_pixels": 0,
+          "scene_writes": 849,
+          "changed_pixels": 126,
+          "unchanged_pixel_writes": 222,
+          "black_writes_over_new_nonblack": 356
+        },
+        {
+          "cycles": 973696,
+          "minimum_object_pixels": 0,
+          "scene_writes": 862,
+          "changed_pixels": 248,
+          "unchanged_pixel_writes": 210,
+          "black_writes_over_new_nonblack": 320
+        },
+        {
+          "cycles": 981131,
+          "minimum_object_pixels": 0,
+          "scene_writes": 873,
+          "changed_pixels": 152,
+          "unchanged_pixel_writes": 160,
+          "black_writes_over_new_nonblack": 360
+        },
+        {
+          "cycles": 980855,
+          "minimum_object_pixels": 0,
+          "scene_writes": 879,
+          "changed_pixels": 441,
+          "unchanged_pixel_writes": 164,
+          "black_writes_over_new_nonblack": 178
+        },
+        {
+          "cycles": 980553,
+          "minimum_object_pixels": 0,
+          "scene_writes": 877,
+          "changed_pixels": 243,
+          "unchanged_pixel_writes": 152,
+          "black_writes_over_new_nonblack": 294
+        },
+        {
+          "cycles": 986937,
+          "minimum_object_pixels": 0,
+          "scene_writes": 872,
+          "changed_pixels": 451,
+          "unchanged_pixel_writes": 133,
+          "black_writes_over_new_nonblack": 177
+        },
+        {
+          "cycles": 996803,
+          "minimum_object_pixels": 0,
+          "scene_writes": 867,
+          "changed_pixels": 391,
+          "unchanged_pixel_writes": 105,
+          "black_writes_over_new_nonblack": 218
+        },
+        {
+          "cycles": 992565,
+          "minimum_object_pixels": 0,
+          "scene_writes": 851,
+          "changed_pixels": 461,
+          "unchanged_pixel_writes": 94,
+          "black_writes_over_new_nonblack": 162
+        },
+        {
+          "cycles": 987799,
+          "minimum_object_pixels": 0,
+          "scene_writes": 833,
+          "changed_pixels": 387,
+          "unchanged_pixel_writes": 104,
+          "black_writes_over_new_nonblack": 196
+        },
+        {
+          "cycles": 980325,
+          "minimum_object_pixels": 0,
+          "scene_writes": 810,
+          "changed_pixels": 478,
+          "unchanged_pixel_writes": 102,
+          "black_writes_over_new_nonblack": 130
+        },
+        {
+          "cycles": 962386,
+          "minimum_object_pixels": 0,
+          "scene_writes": 774,
+          "changed_pixels": 353,
+          "unchanged_pixel_writes": 79,
+          "black_writes_over_new_nonblack": 195
+        },
+        {
+          "cycles": 965655,
+          "minimum_object_pixels": 0,
+          "scene_writes": 767,
+          "changed_pixels": 498,
+          "unchanged_pixel_writes": 68,
+          "black_writes_over_new_nonblack": 114
+        },
+        {
+          "cycles": 981737,
+          "minimum_object_pixels": 0,
+          "scene_writes": 787,
+          "changed_pixels": 418,
+          "unchanged_pixel_writes": 68,
+          "black_writes_over_new_nonblack": 177
+        },
+        {
+          "cycles": 990636,
+          "minimum_object_pixels": 0,
+          "scene_writes": 818,
+          "changed_pixels": 517,
+          "unchanged_pixel_writes": 81,
+          "black_writes_over_new_nonblack": 107
+        },
+        {
+          "cycles": 995363,
+          "minimum_object_pixels": 0,
+          "scene_writes": 844,
+          "changed_pixels": 486,
+          "unchanged_pixel_writes": 107,
+          "black_writes_over_new_nonblack": 120
+        },
+        {
+          "cycles": 916245,
+          "minimum_object_pixels": 0,
+          "scene_writes": 852,
+          "changed_pixels": 607,
+          "unchanged_pixel_writes": 104,
+          "black_writes_over_new_nonblack": 94
+        },
+        {
+          "cycles": 921737,
+          "minimum_object_pixels": 0,
+          "scene_writes": 851,
+          "changed_pixels": 482,
+          "unchanged_pixel_writes": 94,
+          "black_writes_over_new_nonblack": 156
+        },
+        {
+          "cycles": 926147,
+          "minimum_object_pixels": 0,
+          "scene_writes": 849,
+          "changed_pixels": 501,
+          "unchanged_pixel_writes": 123,
+          "black_writes_over_new_nonblack": 136
+        },
+        {
+          "cycles": 932170,
+          "minimum_object_pixels": 0,
+          "scene_writes": 842,
+          "changed_pixels": 481,
+          "unchanged_pixel_writes": 120,
+          "black_writes_over_new_nonblack": 148
+        },
+        {
+          "cycles": 939502,
+          "minimum_object_pixels": 0,
+          "scene_writes": 843,
+          "changed_pixels": 498,
+          "unchanged_pixel_writes": 91,
+          "black_writes_over_new_nonblack": 156
+        },
+        {
+          "cycles": 947840,
+          "minimum_object_pixels": 0,
+          "scene_writes": 848,
+          "changed_pixels": 508,
+          "unchanged_pixel_writes": 80,
+          "black_writes_over_new_nonblack": 143
+        },
+        {
+          "cycles": 953842,
+          "minimum_object_pixels": 0,
+          "scene_writes": 843,
+          "changed_pixels": 495,
+          "unchanged_pixel_writes": 78,
+          "black_writes_over_new_nonblack": 148
+        }
+      ]
+    },
+    "delta-v2": {
+      "cube": [
+        {
+          "cycles": 2345001,
+          "minimum_object_pixels": 311,
+          "scene_writes": 565,
+          "changed_pixels": 565,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2304324,
+          "minimum_object_pixels": 289,
+          "scene_writes": 558,
+          "changed_pixels": 558,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2245058,
+          "minimum_object_pixels": 289,
+          "scene_writes": 495,
+          "changed_pixels": 495,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2271459,
+          "minimum_object_pixels": 276,
+          "scene_writes": 513,
+          "changed_pixels": 513,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2258723,
+          "minimum_object_pixels": 276,
+          "scene_writes": 507,
+          "changed_pixels": 507,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2315463,
+          "minimum_object_pixels": 304,
+          "scene_writes": 579,
+          "changed_pixels": 579,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2200239,
+          "minimum_object_pixels": 334,
+          "scene_writes": 459,
+          "changed_pixels": 459,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2304180,
+          "minimum_object_pixels": 334,
+          "scene_writes": 607,
+          "changed_pixels": 607,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2232911,
+          "minimum_object_pixels": 361,
+          "scene_writes": 541,
+          "changed_pixels": 541,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2262070,
+          "minimum_object_pixels": 361,
+          "scene_writes": 646,
+          "changed_pixels": 646,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2255354,
+          "minimum_object_pixels": 364,
+          "scene_writes": 585,
+          "changed_pixels": 585,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2410342,
+          "minimum_object_pixels": 364,
+          "scene_writes": 668,
+          "changed_pixels": 668,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2409511,
+          "minimum_object_pixels": 348,
+          "scene_writes": 621,
+          "changed_pixels": 621,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2390701,
+          "minimum_object_pixels": 336,
+          "scene_writes": 596,
+          "changed_pixels": 596,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2337540,
+          "minimum_object_pixels": 285,
+          "scene_writes": 538,
+          "changed_pixels": 538,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2318797,
+          "minimum_object_pixels": 272,
+          "scene_writes": 528,
+          "changed_pixels": 528,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2256525,
+          "minimum_object_pixels": 272,
+          "scene_writes": 482,
+          "changed_pixels": 482,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2284552,
+          "minimum_object_pixels": 281,
+          "scene_writes": 504,
+          "changed_pixels": 504,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2277218,
+          "minimum_object_pixels": 289,
+          "scene_writes": 487,
+          "changed_pixels": 487,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2416768,
+          "minimum_object_pixels": 296,
+          "scene_writes": 593,
+          "changed_pixels": 593,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2372194,
+          "minimum_object_pixels": 329,
+          "scene_writes": 553,
+          "changed_pixels": 553,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2449193,
+          "minimum_object_pixels": 345,
+          "scene_writes": 614,
+          "changed_pixels": 614,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2342211,
+          "minimum_object_pixels": 357,
+          "scene_writes": 487,
+          "changed_pixels": 487,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2443000,
+          "minimum_object_pixels": 357,
+          "scene_writes": 647,
+          "changed_pixels": 647,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2425237,
+          "minimum_object_pixels": 378,
+          "scene_writes": 640,
+          "changed_pixels": 640,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2403373,
+          "minimum_object_pixels": 357,
+          "scene_writes": 629,
+          "changed_pixels": 629,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2400315,
+          "minimum_object_pixels": 357,
+          "scene_writes": 599,
+          "changed_pixels": 599,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2421896,
+          "minimum_object_pixels": 372,
+          "scene_writes": 619,
+          "changed_pixels": 619,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2430290,
+          "minimum_object_pixels": 372,
+          "scene_writes": 608,
+          "changed_pixels": 608,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2452004,
+          "minimum_object_pixels": 376,
+          "scene_writes": 619,
+          "changed_pixels": 619,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2451058,
+          "minimum_object_pixels": 367,
+          "scene_writes": 619,
+          "changed_pixels": 619,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2490475,
+          "minimum_object_pixels": 367,
+          "scene_writes": 652,
+          "changed_pixels": 652,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2396255,
+          "minimum_object_pixels": 369,
+          "scene_writes": 545,
+          "changed_pixels": 545,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2439717,
+          "minimum_object_pixels": 362,
+          "scene_writes": 622,
+          "changed_pixels": 622,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2326836,
+          "minimum_object_pixels": 362,
+          "scene_writes": 469,
+          "changed_pixels": 469,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2454504,
+          "minimum_object_pixels": 378,
+          "scene_writes": 661,
+          "changed_pixels": 661,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2332507,
+          "minimum_object_pixels": 376,
+          "scene_writes": 540,
+          "changed_pixels": 540,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2431037,
+          "minimum_object_pixels": 371,
+          "scene_writes": 691,
+          "changed_pixels": 691,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2239657,
+          "minimum_object_pixels": 364,
+          "scene_writes": 482,
+          "changed_pixels": 482,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2377618,
+          "minimum_object_pixels": 361,
+          "scene_writes": 654,
+          "changed_pixels": 654,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2286815,
+          "minimum_object_pixels": 361,
+          "scene_writes": 519,
+          "changed_pixels": 519,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2367130,
+          "minimum_object_pixels": 366,
+          "scene_writes": 726,
+          "changed_pixels": 726,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2225757,
+          "minimum_object_pixels": 368,
+          "scene_writes": 525,
+          "changed_pixels": 525,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2346677,
+          "minimum_object_pixels": 363,
+          "scene_writes": 666,
+          "changed_pixels": 666,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2260086,
+          "minimum_object_pixels": 363,
+          "scene_writes": 523,
+          "changed_pixels": 523,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2388236,
+          "minimum_object_pixels": 371,
+          "scene_writes": 655,
+          "changed_pixels": 655,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2238377,
+          "minimum_object_pixels": 363,
+          "scene_writes": 458,
+          "changed_pixels": 458,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2484914,
+          "minimum_object_pixels": 363,
+          "scene_writes": 692,
+          "changed_pixels": 692,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2377849,
+          "minimum_object_pixels": 379,
+          "scene_writes": 555,
+          "changed_pixels": 555,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2414086,
+          "minimum_object_pixels": 362,
+          "scene_writes": 619,
+          "changed_pixels": 619,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2330339,
+          "minimum_object_pixels": 362,
+          "scene_writes": 478,
+          "changed_pixels": 478,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2460850,
+          "minimum_object_pixels": 374,
+          "scene_writes": 649,
+          "changed_pixels": 649,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2406372,
+          "minimum_object_pixels": 373,
+          "scene_writes": 590,
+          "changed_pixels": 590,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2513301,
+          "minimum_object_pixels": 373,
+          "scene_writes": 712,
+          "changed_pixels": 712,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2389387,
+          "minimum_object_pixels": 378,
+          "scene_writes": 554,
+          "changed_pixels": 554,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2455696,
+          "minimum_object_pixels": 372,
+          "scene_writes": 663,
+          "changed_pixels": 663,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2394721,
+          "minimum_object_pixels": 372,
+          "scene_writes": 567,
+          "changed_pixels": 567,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2417825,
+          "minimum_object_pixels": 357,
+          "scene_writes": 692,
+          "changed_pixels": 692,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2357762,
+          "minimum_object_pixels": 357,
+          "scene_writes": 599,
+          "changed_pixels": 599,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2387776,
+          "minimum_object_pixels": 378,
+          "scene_writes": 635,
+          "changed_pixels": 635,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2361683,
+          "minimum_object_pixels": 369,
+          "scene_writes": 593,
+          "changed_pixels": 593,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2396359,
+          "minimum_object_pixels": 366,
+          "scene_writes": 591,
+          "changed_pixels": 591,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2429328,
+          "minimum_object_pixels": 349,
+          "scene_writes": 633,
+          "changed_pixels": 633,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2413937,
+          "minimum_object_pixels": 329,
+          "scene_writes": 623,
+          "changed_pixels": 623,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        }
+      ],
+      "ship": [
+        {
+          "cycles": 2263460,
+          "minimum_object_pixels": 329,
+          "scene_writes": 542,
+          "changed_pixels": 542,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2222503,
+          "minimum_object_pixels": 314,
+          "scene_writes": 495,
+          "changed_pixels": 495,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2233343,
+          "minimum_object_pixels": 314,
+          "scene_writes": 517,
+          "changed_pixels": 517,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2282673,
+          "minimum_object_pixels": 309,
+          "scene_writes": 533,
+          "changed_pixels": 533,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2246719,
+          "minimum_object_pixels": 309,
+          "scene_writes": 478,
+          "changed_pixels": 478,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2323412,
+          "minimum_object_pixels": 320,
+          "scene_writes": 509,
+          "changed_pixels": 509,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2310427,
+          "minimum_object_pixels": 334,
+          "scene_writes": 504,
+          "changed_pixels": 504,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2361608,
+          "minimum_object_pixels": 359,
+          "scene_writes": 553,
+          "changed_pixels": 553,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2354356,
+          "minimum_object_pixels": 354,
+          "scene_writes": 532,
+          "changed_pixels": 532,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2352493,
+          "minimum_object_pixels": 314,
+          "scene_writes": 538,
+          "changed_pixels": 538,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2372173,
+          "minimum_object_pixels": 314,
+          "scene_writes": 520,
+          "changed_pixels": 520,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2419654,
+          "minimum_object_pixels": 340,
+          "scene_writes": 530,
+          "changed_pixels": 530,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2381932,
+          "minimum_object_pixels": 339,
+          "scene_writes": 555,
+          "changed_pixels": 555,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2313927,
+          "minimum_object_pixels": 334,
+          "scene_writes": 472,
+          "changed_pixels": 472,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2336667,
+          "minimum_object_pixels": 315,
+          "scene_writes": 508,
+          "changed_pixels": 508,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2300264,
+          "minimum_object_pixels": 310,
+          "scene_writes": 497,
+          "changed_pixels": 497,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2320930,
+          "minimum_object_pixels": 310,
+          "scene_writes": 541,
+          "changed_pixels": 541,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2264455,
+          "minimum_object_pixels": 310,
+          "scene_writes": 503,
+          "changed_pixels": 503,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2331856,
+          "minimum_object_pixels": 314,
+          "scene_writes": 515,
+          "changed_pixels": 515,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2346653,
+          "minimum_object_pixels": 324,
+          "scene_writes": 549,
+          "changed_pixels": 549,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2290767,
+          "minimum_object_pixels": 329,
+          "scene_writes": 501,
+          "changed_pixels": 501,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2283163,
+          "minimum_object_pixels": 329,
+          "scene_writes": 510,
+          "changed_pixels": 510,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2227726,
+          "minimum_object_pixels": 319,
+          "scene_writes": 484,
+          "changed_pixels": 484,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2236025,
+          "minimum_object_pixels": 301,
+          "scene_writes": 501,
+          "changed_pixels": 501,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2214907,
+          "minimum_object_pixels": 301,
+          "scene_writes": 510,
+          "changed_pixels": 510,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2199414,
+          "minimum_object_pixels": 317,
+          "scene_writes": 526,
+          "changed_pixels": 526,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2181762,
+          "minimum_object_pixels": 315,
+          "scene_writes": 485,
+          "changed_pixels": 485,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2177796,
+          "minimum_object_pixels": 290,
+          "scene_writes": 498,
+          "changed_pixels": 498,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2141704,
+          "minimum_object_pixels": 290,
+          "scene_writes": 465,
+          "changed_pixels": 465,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2119009,
+          "minimum_object_pixels": 294,
+          "scene_writes": 461,
+          "changed_pixels": 461,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2070671,
+          "minimum_object_pixels": 297,
+          "scene_writes": 421,
+          "changed_pixels": 421,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2087723,
+          "minimum_object_pixels": 285,
+          "scene_writes": 478,
+          "changed_pixels": 478,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2054370,
+          "minimum_object_pixels": 285,
+          "scene_writes": 449,
+          "changed_pixels": 449,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2027710,
+          "minimum_object_pixels": 278,
+          "scene_writes": 444,
+          "changed_pixels": 444,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1905022,
+          "minimum_object_pixels": 278,
+          "scene_writes": 311,
+          "changed_pixels": 311,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1973763,
+          "minimum_object_pixels": 269,
+          "scene_writes": 431,
+          "changed_pixels": 431,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1801896,
+          "minimum_object_pixels": 269,
+          "scene_writes": 275,
+          "changed_pixels": 275,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1889850,
+          "minimum_object_pixels": 270,
+          "scene_writes": 401,
+          "changed_pixels": 401,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1733061,
+          "minimum_object_pixels": 272,
+          "scene_writes": 243,
+          "changed_pixels": 243,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1766770,
+          "minimum_object_pixels": 259,
+          "scene_writes": 315,
+          "changed_pixels": 315,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1660401,
+          "minimum_object_pixels": 259,
+          "scene_writes": 162,
+          "changed_pixels": 162,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1690136,
+          "minimum_object_pixels": 232,
+          "scene_writes": 304,
+          "changed_pixels": 304,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1588734,
+          "minimum_object_pixels": 232,
+          "scene_writes": 126,
+          "changed_pixels": 126,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1707182,
+          "minimum_object_pixels": 232,
+          "scene_writes": 248,
+          "changed_pixels": 248,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1646989,
+          "minimum_object_pixels": 285,
+          "scene_writes": 152,
+          "changed_pixels": 152,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1869792,
+          "minimum_object_pixels": 285,
+          "scene_writes": 441,
+          "changed_pixels": 441,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1729226,
+          "minimum_object_pixels": 295,
+          "scene_writes": 243,
+          "changed_pixels": 243,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1918600,
+          "minimum_object_pixels": 295,
+          "scene_writes": 451,
+          "changed_pixels": 451,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1888447,
+          "minimum_object_pixels": 319,
+          "scene_writes": 391,
+          "changed_pixels": 391,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2009678,
+          "minimum_object_pixels": 300,
+          "scene_writes": 461,
+          "changed_pixels": 461,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1954488,
+          "minimum_object_pixels": 289,
+          "scene_writes": 387,
+          "changed_pixels": 387,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2043258,
+          "minimum_object_pixels": 289,
+          "scene_writes": 478,
+          "changed_pixels": 478,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 1941642,
+          "minimum_object_pixels": 287,
+          "scene_writes": 353,
+          "changed_pixels": 353,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2118689,
+          "minimum_object_pixels": 287,
+          "scene_writes": 498,
+          "changed_pixels": 498,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2079159,
+          "minimum_object_pixels": 300,
+          "scene_writes": 418,
+          "changed_pixels": 418,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2197895,
+          "minimum_object_pixels": 304,
+          "scene_writes": 517,
+          "changed_pixels": 517,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2174984,
+          "minimum_object_pixels": 304,
+          "scene_writes": 486,
+          "changed_pixels": 486,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2293612,
+          "minimum_object_pixels": 304,
+          "scene_writes": 607,
+          "changed_pixels": 607,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2111209,
+          "minimum_object_pixels": 315,
+          "scene_writes": 482,
+          "changed_pixels": 482,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2173036,
+          "minimum_object_pixels": 302,
+          "scene_writes": 501,
+          "changed_pixels": 501,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2163919,
+          "minimum_object_pixels": 302,
+          "scene_writes": 481,
+          "changed_pixels": 481,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2187300,
+          "minimum_object_pixels": 311,
+          "scene_writes": 498,
+          "changed_pixels": 498,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2210019,
+          "minimum_object_pixels": 328,
+          "scene_writes": 508,
+          "changed_pixels": 508,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        },
+        {
+          "cycles": 2241716,
+          "minimum_object_pixels": 328,
+          "scene_writes": 495,
+          "changed_pixels": 495,
+          "unchanged_pixel_writes": 0,
+          "black_writes_over_new_nonblack": 0
+        }
+      ]
+    }
+  },
+  "method": "Every LCD pixel commit on unchanged i8080 core. Preparation checked unchanged; old/new final scene independently rasterized; compare immutable working-v1 ROM. GIF timing from cycles, no main-loop delays."
+}

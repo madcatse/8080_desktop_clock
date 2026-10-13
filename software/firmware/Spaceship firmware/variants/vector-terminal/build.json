@@ -1,0 +1,19 @@
+{
+  "sources": [
+    "main.c",
+    "lcd.c",
+    "gui.c",
+    "i2c.c",
+    "onewire.c",
+    "bme280.c",
+    "forecast.c",
+    "logic.c",
+    "vector.c",
+    "terminal.c",
+    "vector_draw.c",
+    "vector_delta.c"
+  ],
+  "options": [
+    "-crt0=clock_fixed_crt0.asm"
+  ]
+}

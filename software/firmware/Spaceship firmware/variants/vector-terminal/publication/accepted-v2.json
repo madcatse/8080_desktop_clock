@@ -1,0 +1,15 @@
+{
+  "version": "vector-terminal-v2",
+  "accepted_date": "2026-10-13",
+  "image_bytes": 32768,
+  "hardware": {
+    "sha256": "f253f3194292b9d76030fa70b23b0557b0fd9c4bbe4e186e9801b234e3af46cd",
+    "rom_used": 27831,
+    "static_ram": 24358
+  },
+  "emulator": {
+    "sha256": "fa81d69c63da051c132b60bade69fce2248875aace47aa72429b751cad451729",
+    "rom_used": 27738,
+    "static_ram": 24357
+  }
+}

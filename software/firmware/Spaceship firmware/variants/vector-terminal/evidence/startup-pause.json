@@ -1,0 +1,35 @@
+{
+  "sha256": "f253f3194292b9d76030fa70b23b0557b0fd9c4bbe4e186e9801b234e3af46cd",
+  "method": "Published hardware ROM; responding RTC/BME byte fixtures, DS absent. LCD writes resume between four service stages.",
+  "stages": [
+    {
+      "stage": "BME init",
+      "cycles": 418677,
+      "ms": 117.75289153088856,
+      "pixels_before": 15360
+    },
+    {
+      "stage": "BME measurement",
+      "cycles": 204511,
+      "ms": 57.51871156016105,
+      "pixels_before": 30720
+    },
+    {
+      "stage": "DS start",
+      "cycles": 47352,
+      "ms": 13.317748335281458,
+      "pixels_before": 46080
+    },
+    {
+      "stage": "forecast",
+      "cycles": 425247,
+      "ms": 119.60070379991203,
+      "pixels_before": 61440
+    }
+  ],
+  "maximum_service_ms": 119.60070379991203,
+  "first_clear_cycles": 6268161,
+  "repeat_clear_cycles": 5347826,
+  "stack_bytes": 130,
+  "result": "PASS"
+}
